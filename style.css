@@ -1143,6 +1143,7 @@ body.sidebar-open .sidebar-overlay {
     transition: all var(--transition-normal);
     box-shadow: var(--shadow-md);
     font-family: var(--font-main);
+    text-decoration: none;
 }
 
 .download-cv-btn:hover {

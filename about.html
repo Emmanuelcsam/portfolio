@@ -75,11 +75,11 @@
                     <p class="hero-subtitle">Physics & Philosophy Student | Creative Professional</p>
                     </div>
                     <div class="hero-skills">
-                        <a href="#" class="skill-badge" onclick="navigateToTab('experience'); return false;">
+                        <a href="#" class="skill-badge" onclick="navigateToTab('experience'); openInBackground('Emmanuel_Sampson_Resume_Tech.html'); return false;">
                             <span>Physics Research</span>
                         </a>
 
-                        <a href="#" class="skill-badge" onclick="navigateToTab('research'); return false;">
+                        <a href="#" class="skill-badge" onclick="navigateToTab('research'); openInBackground('Emmanuel_Sampson_Resume_Tech.html'); return false;">
                             <span>Engineering Design</span>
                         </a>
 
@@ -92,7 +92,7 @@
                         </a>
                     </div>
                     <div class="hero-actions">
-                        <button class="download-cv-btn" onclick="generateProfessionalPDF()">
+                        <button class="download-cv-btn" onclick="generateEngineeringResume()">
                             <i class="fa fa-download"></i>
                             <span>Download Resume</span>
                         </button>
@@ -208,8 +208,8 @@
                         <h3>Engineer Intern</h3>
                         <div class="subtitle">WEINERT Fiber Optics Inc</div>
                         <ul>
-                            <li>Design and implement AI-powered computer vision systems in Python and C++ for automated fiber-optic end-face defect detection</li>
-                            <li>Develop and optimize real-time medical temperature monitoring and logging sensors</li>
+                            <li>Designed and implemented AI-powered computer vision systems in Python and C++ for automated fiber-optic end-face defect detection</li>
+                            <li>Developed convolutional neural network with high performance computing clusters </li>
                         </ul>
                     </div>
                     <div class="resume-card hover-lift">
@@ -233,7 +233,7 @@
                             <li>Manage research budget and coordinate experimental protocols</li>
                             <li>Collaborate with CERN, NIST, and CALTECH on advanced projects</li>
                             <li>Operate advanced instrumentation: Hitachi S-4700 FE-SEM, Phenom SEM, Bruker Dimension ICON AFM, HIROX KH-7700, Renishaw inVia Raman, Dektak 3 ST, and Profilm3D surface profilers</li>
-                            <li>Assembled TrIFT 4 time-of-flight mass spectrometry instrument</li>
+                            <li>Assembled TRIFT 4 time-of-flight mass spectrometry instrument</li>
                         </ul>
                     </div>
                     <div class="resume-card hover-lift">
@@ -699,6 +699,27 @@
                 targetButton.click();
             }
         }
+
+        function openInBackground(url) {
+            // Create a hidden anchor element and simulate a middle-click
+            const a = document.createElement('a');
+            a.href = url;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            a.style.display = 'none';
+            document.body.appendChild(a);
+
+            // Dispatch a click with middle button to open in background
+            const evt = new MouseEvent('click', {
+                ctrlKey: true,
+                metaKey: true,
+                view: window,
+                bubbles: true,
+                cancelable: true
+            });
+            a.dispatchEvent(evt);
+            document.body.removeChild(a);
+        }
         // --- END: New Helper Function ---
 
         // --- START: Mobile Navigation Toggle ---
@@ -805,82 +826,100 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 
     <script>
-    async function generateProfessionalPDF() {
+    async function generateEngineeringResume() {
         const btn = document.querySelector('.download-cv-btn');
         const origText = btn.innerHTML;
         btn.innerHTML = '<span>Generating PDF...</span>';
         btn.disabled = true;
 
-        // --- 1. DATA EXTRACTION ---
-        const name = document.querySelector('.hero-title')?.innerText || 'Emmanuel Sampson';
-        const email = 'ecsampson03@gmail.com';
-        const linkedin = 'linkedin.com/in/emmanuel-sampson';
-
-        // Education Data
-        const educationItems = Array.from(document.querySelectorAll('#education .timeline-item')).slice(0, 2).map(item => ({
-            degree: item.querySelector('.subtitle')?.innerText.trim(),
-            institution: item.querySelector('h3')?.innerText.trim(),
-            date: item.querySelector('.timeline-date')?.innerText.trim()
-        }));
-
-        // Experience Data (Top 4 most relevant)
-        const experienceItems = Array.from(document.querySelectorAll('#experience .resume-card')).slice(0, 4).map(card => ({
-            title: card.querySelector('h3')?.innerText.trim(),
-            company: card.querySelector('.subtitle')?.innerText.trim(),
-            date: card.querySelector('.date')?.innerText.trim(),
-            bullets: Array.from(card.querySelectorAll('ul li')).map(li => `<li>${li.innerText.trim()}</li>`).join('')
-        }));
-        
-        // Projects Data (Top 4 most relevant)
-        const projectItems = Array.from(document.querySelectorAll('#research .project-card')).slice(0, 4).map(card => ({
-            title: card.querySelector('h3')?.innerText.trim(),
-            context: card.querySelector('.project-status')?.innerText.trim(),
-            description: card.querySelector('p')?.innerText.trim()
-        }));
-
-        // Skills Data
-        const programmingSkills = Array.from(document.querySelectorAll('#skills .skill-category:nth-of-type(1) .skill-badge span')).map(s => s.innerText).join(', ');
-        const softwareSkills = Array.from(document.querySelectorAll('#skills .skill-category:nth-of-type(2) .skill-badge span')).map(s => s.innerText).join(', ');
-        const specializedSkills = Array.from(document.querySelectorAll('#skills .skill-category:nth-of-type(3) .skill-badge span')).map(s => s.innerText).join(', ');
-        const languages = Array.from(document.querySelectorAll('#skills .language-card h4')).map(l => l.innerText).join(' • ');
-
-        // Leadership & Honors
-        const leadershipItems = [
-            'President: William and Mary Robotics Club (2 yrs)',
-            'President: Data Science Society (1 yr)',
-            'Outreach Director: Society of Physics Students (1 yr)'
-        ];
-        const honorItems = [
-            'William and Mary Catron & Bosanko Scholarship Recipient',
-            'William and Mary 2024 Hackathon Winner',
-            'Sharpe Community Scholar'
-        ];
-
-
-        // --- 2. HTML & CSS FOR PDF (MODIFIED) ---
+        // Embedded Engineering Resume Content
         const styles = `
             <style>
-                body { margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 10pt; line-height: 1.4; color: #333; }
-                h1 { font-size: 22pt; text-align: center; margin: 0; padding: 0; }
-                .contact-info { text-align: center; margin-bottom: 10px; font-size: 10pt; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
-                .contact-info a { text-decoration: none; color: #0066cc; }
-                .section { margin-bottom: 16px; }
-                .section-title { font-size: 12pt; font-weight: bold; text-transform: uppercase; border-bottom: 2px solid #000; padding-bottom: 4px; margin-bottom: 8px; }
-                .entry { margin-bottom: 12px; }
-                .entry-header { display: flex; justify-content: space-between; align-items: baseline; }
-                .entry-header .title { font-size: 11pt; font-weight: bold; }
-                .entry-header .date { font-size: 10pt; color: #444; }
-                .entry-subheader { font-style: italic; color: #555; margin-top: -2px; }
-                .entry ul { list-style-type: disc; margin: 10px 0 0 0; padding-left: 20px; }
-                .entry li { margin-bottom: 4px; }
-                .project-entry { margin-bottom: 8px; }
-                .project-entry .title { font-weight: bold; }
-                .project-entry .context { font-style: italic; color: #555; margin-left: 5px; }
-                .skills-row { display: flex; margin-bottom: 4px; }
-                .skills-label { font-weight: bold; width: 120px; flex-shrink: 0; }
-                .skills-list { flex-grow: 1; }
-                .combined-section ul { columns: 2; -webkit-columns: 2; column-gap: 40px; list-style-position: inside; padding-left: 0; margin: 0;}
-                .combined-section li { margin-bottom: 4px; }
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                    max-width: 800px;
+                    margin: 0 auto;
+                    padding: 15px;
+                    line-height: 1.3;
+                    color: #000;
+                    font-size: 11pt;
+                }
+
+                h1 {
+                    text-align: center;
+                    font-size: 20pt;
+                    margin: 0;
+                    padding: 5px 0;
+                }
+
+                .contact-info {
+                    text-align: center;
+                    margin-bottom: 15px;
+                    font-size: 10.5pt;
+                    border-bottom: 1px solid #000;
+                    padding-bottom: 8px;
+                }
+
+                .contact-info a {
+                    color: inherit;
+                    text-decoration: none;
+                }
+
+                .section {
+                    margin-bottom: 15px;
+                }
+
+                .section-title {
+                    font-size: 12pt;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    border-bottom: 1px solid #000;
+                    padding-bottom: 2px;
+                    margin-bottom: 8px;
+                }
+
+                .entry {
+                    margin-bottom: 12px;
+                }
+
+                .entry-header {
+                    display: flex;
+                    justify-content: space-between;
+                    font-weight: bold;
+                    margin-bottom: 2px;
+                }
+
+                .entry-header-left {
+                    flex-grow: 1;
+                }
+
+                .entry-header-right {
+                    text-align: right;
+                    white-space: nowrap;
+                    margin-left: 15px;
+                }
+
+                .entry-subheader {
+                    font-style: italic;
+                    margin-bottom: 3px;
+                }
+
+                .entry ul {
+                    margin: 3px 0;
+                    padding-left: 18px;
+                }
+
+                .entry li {
+                    margin-bottom: 2px;
+                }
+
+                .skills-section {
+                    margin-bottom: 3px;
+                }
+
+                .skills-label {
+                    font-weight: bold;
+                }
             </style>
         `;
 
@@ -888,75 +927,184 @@
             <html>
             <head>${styles}</head>
             <body>
-                <h1>${name}</h1>
+                <h1>EMMANUEL SAMPSON</h1>
                 <div class="contact-info">
-                    <a href="mailto:${email}">${email}</a> | <a href="https://${linkedin}" target="_blank">${linkedin}</a>
+                    Williamsburg, VA 23185 •
+                    <a href="mailto:ecsampson03@gmail.com">ecsampson03@gmail.com</a> •
+                    <a href="https://linkedin.com/in/emmanuel-sampson" target="_blank">linkedin.com/in/emmanuel-sampson</a> •
+                    <a href="https://github.com/emmanuelcsam" target="_blank">github.com/emmanuelcsam</a>
                 </div>
 
                 <div class="section">
-                    <div class="section-title">Education</div>
-                    ${educationItems.map(edu => `
-                        <div class="entry">
-                            <div class="entry-header">
-                                <span class="title">${edu.institution}</span>
-                                <span class="date">${edu.date}</span>
-                            </div>
-                            <div class="entry-subheader">${edu.degree}</div>
+                    <div class="section-title">EDUCATION</div>
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>William & Mary</strong>, Williamsburg, VA</span>
+                            <span class="entry-header-right">Expected May 2026</span>
                         </div>
-                    `).join('')}
-                </div>
-
-                <div class="section">
-                    <div class="section-title">Skills</div>
-                    <div class="skills-row"><span class="skills-label">Programming:</span> <span class="skills-list">${programmingSkills}</span></div>
-                    <div class="skills-row"><span class="skills-label">Software:</span> <span class="skills-list">${softwareSkills}</span></div>
-                    <div class="skills-row"><span class="skills-label">Specialized:</span> <span class="skills-list">${specializedSkills}</span></div>
-                    <div class="skills-row"><span class="skills-label">Languages:</span> <span class="skills-list">${languages}</span></div>
-                </div>
-
-                <div class="section">
-                    <div class="section-title">Experience</div>
-                    ${experienceItems.map(exp => `
-                        <div class="entry">
-                            <div class="entry-header">
-                                <span class="title">${exp.title}</span>
-                                <span class="date">${exp.date}</span>
-                            </div>
-                            <div class="entry-subheader">${exp.company}</div>
-                            <ul>${exp.bullets}</ul>
+                        <div class="entry-subheader">
+                            Double Major: BS, Physics; BA, Philosophy
                         </div>
-                    `).join('')}
+                        <div>William and Mary Catron Scholarship, Bosanko Scholarship, Sharpe Community Scholar</div>
+                    </div>
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>UCLA School of Theater, Film & Television</strong>, Los Angeles, CA</span>
+                            <span class="entry-header-right">June 2024 - August 2024</span>
+                        </div>
+                        <div class="entry-subheader">
+                            Certificate in Cinematography and Film/Video Production
+                        </div>
+                    </div>
                 </div>
 
                 <div class="section">
-                    <div class="section-title">Projects</div>
-                    ${projectItems.map(proj => `
-                        <div class="project-entry">
-                            <span class="title">${proj.title}</span>
-                            <span class="context">(${proj.context})</span>
-                            <p style="margin: 2px 0 0 0;">${proj.description}</p>
+                    <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Engineer Intern</strong></span>
+                            <span class="entry-header-right">May 2025 - Present</span>
                         </div>
-                    `).join('')}
+                        <div class="entry-subheader">WEINERT Fiber Optics Inc, Richmond, VA</div>
+                        <ul>
+                            <li>Designed and implemented AI-powered computer vision systems in Python and C++ for automated fiber-optic end-face defect detection</li>
+                            <li>Developed and optimized real-time medical temperature monitoring and logging sensors</li>
+                            <li>Enhanced transmission efficiency for medical applications including kidney stone removal and cancer treatment</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Physics Research Assistant</strong></span>
+                            <span class="entry-header-right">October 2023 - Present</span>
+                        </div>
+                        <div class="entry-subheader">Applied Research Center Core Labs, Newport News, VA</div>
+                        <ul>
+                            <li>Conducted research in reflective optics and atomistic spin dynamics modeling for next-generation semiconductors</li>
+                            <li>Collaborated with CERN, NIST, and CALTECH on advanced projects including low angle reflectivity experiments</li>
+                            <li>Assembled TRIFT 4 time-of-flight mass spectrometry instrument for surface analysis</li>
+                            <li>Operated advanced instrumentation including Hitachi S-4700 FE-SEM, Bruker Dimension ICON AFM, and HIROX KH-7700</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Creative Production Assistant</strong></span>
+                            <span class="entry-header-right">June 2024 - July 2025</span>
+                        </div>
+                        <div class="entry-subheader">Two Beagles Studio LLC, Richmond, VA</div>
+                        <ul>
+                            <li>Wrote and developed intellectual property including novels, screenplays, and advertisements</li>
+                            <li>Drove brand strategy and executed impactful marketing campaigns</li>
+                            <li>Designed, built, and optimized corporate website for enhanced digital presence</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Communications Assistant</strong></span>
+                            <span class="entry-header-right">January 2024 - September 2025</span>
+                        </div>
+                        <div class="entry-subheader">William & Mary Charles Center, Williamsburg, VA</div>
+                        <ul>
+                            <li>Captured high-quality imagery of researchers, advisors, donors, and events</li>
+                            <li>Developed ideas for outreach and marketing strategies</li>
+                            <li>Documented diverse scope of Charles Center's programming activities</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="section combined-section">
-                    <div class="section-title">Leadership & Honors</div>
-                     <ul>
-                        ${[...leadershipItems, ...honorItems].map(item => `<li>${item}</li>`).join('')}
-                    </ul>
+                <div class="section">
+                    <div class="section-title">PROJECT EXPERIENCE</div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>AI Fiber-Optic Defect Analyzer</strong> (Weinert Fiber Optics)</span>
+                            <span class="entry-header-right">May 2025 - Present</span>
+                        </div>
+                        <ul>
+                            <li>Engineered custom microscope and software program to automatically locate and identify surface defects on fiber-optic end-faces</li>
+                            <li>Enhanced transmission efficiency for medical applications using computer vision and machine learning</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Bird Sensor Technology</strong> (Hackathon Winner)</span>
+                            <span class="entry-header-right">March 2024</span>
+                        </div>
+                        <ul>
+                            <li>Developed innovative sensor system that detected bird-window collisions through frequency analysis</li>
+                            <li>Won William and Mary 2024 Hackathon with wildlife conservation technology solution</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Atomistic Spin Dynamics Modeling</strong> (Research)</span>
+                            <span class="entry-header-right">October 2023 - Present</span>
+                        </div>
+                        <ul>
+                            <li>Investigated optimal configurations of iron-nickel and cobalt-iron alloys to enhance magnetization properties</li>
+                            <li>Developed cost-effective alternatives to rare earth metal semiconductors</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Vital-Lift: Safe & Sound</strong> (Hoya Hacks 2025)</span>
+                            <span class="entry-header-right">January 2025</span>
+                        </div>
+                        <ul>
+                            <li>Developed simulation for drones and eVTOLs to autonomously route life-saving medical supplies</li>
+                            <li>Implemented obstacle avoidance algorithms for traffic and weather conditions using Python and Blender</li>
+                        </ul>
+                    </div>
                 </div>
 
+                <div class="section">
+                    <div class="section-title">TECHNICAL SKILLS</div>
+                    <div class="skills-section">
+                        <span class="skills-label">Programming Languages:</span> Python, MATLAB, Java, JavaScript, C++, HTML/CSS
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Software:</span> Adobe Creative Suite, Autodesk Suite, TinkerCAD, Tableau, CAD Software, Fusion360, Apex, Makerbot
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Specialized Skills:</span> Computer Vision, Engineering Design, Fiber Optics, Signal Processing, RF Engineering, Data Acquisition
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Instrumentation:</span> Mass Spectrometry, SEM, AFM, Raman Spectroscopy, Surface Profilers
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">LEADERSHIP & HONORS</div>
+                    <div class="skills-section">
+                        <span class="skills-label">President:</span> William and Mary Robotics Club (2 years), Data Science Society (1 year), Tech Executive Association (1 year)
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Outreach Director:</span> Society of Physics Students (1 year), Association of Computing Machinery (1 year)
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Awards:</span> William and Mary 2024 Hackathon Winner, Sharpe Community Scholar, Marine Corps OCS Attendant
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Event Creation:</span> Producer and MC of Williamsburg STEM Symposium (William & Mary's first annual STEM symposium)
+                    </div>
+                </div>
             </body>
             </html>
         `;
 
-        // --- 3. PDF GENERATION (MODIFIED) ---
+        // PDF Generation
         const element = document.createElement('div');
         element.innerHTML = resumeHtml;
 
         const opt = {
-            margin:       [0.2, 0.5, 0.2, .5],  // [top, left, bottom, right] in inches. CHANGE MARGIN 
-            filename:     'Emmanuel_Sampson_CV.pdf',
+            margin:       [0.5, 0.5, 0.5, 0.5],  // [top, left, bottom, right] in inches
+            filename:     'Emmanuel_Sampson_Engineering_Resume.pdf',
             image:        { type: 'jpeg', quality: 0.98 },
             html2canvas:  { scale: 2, useCORS: true },
             jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
@@ -972,6 +1120,294 @@
             btn.disabled = false;
         }
     }
+
+    /* Old function commented out for reference
+    async function generateProfessionalPDF() {
+        const btn = document.querySelector('.download-cv-btn');
+        const origText = btn.innerHTML;
+        btn.innerHTML = '<span>Generating PDF...</span>';
+        btn.disabled = true;
+
+        // --- ATS-OPTIMIZED RESUME CONTENT ---
+        const styles = `
+            <style>
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                    max-width: 800px;
+                    margin: 0 auto;
+                    padding: 15px;
+                    line-height: 1.3;
+                    color: #000;
+                    font-size: 11pt;
+                }
+
+                h1 {
+                    text-align: center;
+                    font-size: 20pt;
+                    margin: 0;
+                    padding: 5px 0;
+                }
+
+                .contact-info {
+                    text-align: center;
+                    margin-bottom: 15px;
+                    font-size: 10.5pt;
+                    border-bottom: 1px solid #000;
+                    padding-bottom: 8px;
+                }
+
+                .section {
+                    margin-bottom: 15px;
+                }
+
+                .section-title {
+                    font-size: 12pt;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    border-bottom: 1px solid #000;
+                    padding-bottom: 2px;
+                    margin-bottom: 8px;
+                }
+
+                .entry {
+                    margin-bottom: 12px;
+                }
+
+                .entry-header {
+                    display: flex;
+                    justify-content: space-between;
+                    font-weight: bold;
+                    margin-bottom: 2px;
+                }
+
+                .entry-header-left {
+                    flex-grow: 1;
+                }
+
+                .entry-header-right {
+                    text-align: right;
+                    white-space: nowrap;
+                    margin-left: 15px;
+                }
+
+                .entry-subheader {
+                    font-style: italic;
+                    margin-bottom: 3px;
+                }
+
+                .entry ul {
+                    margin: 3px 0;
+                    padding-left: 18px;
+                }
+
+                .entry li {
+                    margin-bottom: 2px;
+                }
+
+                .skills-section {
+                    margin-bottom: 3px;
+                }
+
+                .skills-label {
+                    font-weight: bold;
+                }
+            </style>
+        `;
+
+        const resumeHtml = `
+            <html>
+            <head>${styles}</head>
+            <body>
+                <h1>EMMANUEL SAMPSON</h1>
+                <div class="contact-info">
+                    Williamsburg, VA 23185 • ecsampson03@gmail.com • linkedin.com/in/emmanuel-sampson • github.com/emmanuelcsam
+                </div>
+
+                <div class="section">
+                    <div class="section-title">EDUCATION</div>
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>William & Mary</strong>, Williamsburg, VA</span>
+                            <span class="entry-header-right">Expected May 2026</span>
+                        </div>
+                        <div class="entry-subheader">
+                            Double Major: BS, Physics; BA, Philosophy
+                        </div>
+                        <div>William and Mary Catron Scholarship, Bosanko Scholarship, Sharpe Community Scholar</div>
+                    </div>
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>UCLA School of Theater, Film & Television</strong>, Los Angeles, CA</span>
+                            <span class="entry-header-right">June 2024 - August 2024</span>
+                        </div>
+                        <div class="entry-subheader">
+                            Certificate in Cinematography and Film/Video Production
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Engineer Intern</strong></span>
+                            <span class="entry-header-right">May 2025 - Present</span>
+                        </div>
+                        <div class="entry-subheader">WEINERT Fiber Optics Inc, Richmond, VA</div>
+                        <ul>
+                            <li>Designed and implemented AI-powered computer vision systems in Python and C++ for automated fiber-optic end-face defect detection</li>
+                            <li>Developed and optimized real-time medical temperature monitoring and logging sensors</li>
+                            <li>Enhanced transmission efficiency for medical applications including kidney stone removal and cancer treatment</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Physics Research Assistant</strong></span>
+                            <span class="entry-header-right">October 2023 - Present</span>
+                        </div>
+                        <div class="entry-subheader">Applied Research Center Core Labs, Newport News, VA</div>
+                        <ul>
+                            <li>Conducted research in reflective optics and atomistic spin dynamics modeling for next-generation semiconductors</li>
+                            <li>Collaborated with CERN, NIST, and CALTECH on advanced projects including low angle reflectivity experiments</li>
+                            <li>Assembled TRIFT 4 time-of-flight mass spectrometry instrument for surface analysis</li>
+                            <li>Operated advanced instrumentation including Hitachi S-4700 FE-SEM, Bruker Dimension ICON AFM, and HIROX KH-7700</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Creative Production Assistant</strong></span>
+                            <span class="entry-header-right">June 2024 - July 2025</span>
+                        </div>
+                        <div class="entry-subheader">Two Beagles Studio LLC, Richmond, VA</div>
+                        <ul>
+                            <li>Wrote and developed intellectual property including novels, screenplays, and advertisements</li>
+                            <li>Drove brand strategy and executed impactful marketing campaigns</li>
+                            <li>Designed, built, and optimized corporate website for enhanced digital presence</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Communications Assistant</strong></span>
+                            <span class="entry-header-right">January 2024 - September 2025</span>
+                        </div>
+                        <div class="entry-subheader">William & Mary Charles Center, Williamsburg, VA</div>
+                        <ul>
+                            <li>Captured high-quality imagery of researchers, advisors, donors, and events</li>
+                            <li>Developed ideas for outreach and marketing strategies</li>
+                            <li>Documented diverse scope of Charles Center's programming activities</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">PROJECT EXPERIENCE</div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>AI Fiber-Optic Defect Analyzer</strong> (Weinert Fiber Optics)</span>
+                            <span class="entry-header-right">May 2025 - Present</span>
+                        </div>
+                        <ul>
+                            <li>Engineered custom microscope and software program to automatically locate and identify surface defects on fiber-optic end-faces</li>
+                            <li>Enhanced transmission efficiency for medical applications using computer vision and machine learning</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Bird Sensor Technology</strong> (Hackathon Winner)</span>
+                            <span class="entry-header-right">March 2024</span>
+                        </div>
+                        <ul>
+                            <li>Developed innovative sensor system that detected bird-window collisions through frequency analysis</li>
+                            <li>Won William and Mary 2024 Hackathon with wildlife conservation technology solution</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Atomistic Spin Dynamics Modeling</strong> (Research)</span>
+                            <span class="entry-header-right">October 2023 - Present</span>
+                        </div>
+                        <ul>
+                            <li>Investigated optimal configurations of iron-nickel and cobalt-iron alloys to enhance magnetization properties</li>
+                            <li>Developed cost-effective alternatives to rare earth metal semiconductors</li>
+                        </ul>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-header">
+                            <span class="entry-header-left"><strong>Vital-Lift: Safe & Sound</strong> (Hoya Hacks 2025)</span>
+                            <span class="entry-header-right">January 2025</span>
+                        </div>
+                        <ul>
+                            <li>Developed simulation for drones and eVTOLs to autonomously route life-saving medical supplies</li>
+                            <li>Implemented obstacle avoidance algorithms for traffic and weather conditions using Python and Blender</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">TECHNICAL SKILLS</div>
+                    <div class="skills-section">
+                        <span class="skills-label">Programming Languages:</span> Python, MATLAB, Java, JavaScript, C++, HTML/CSS
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Software:</span> Adobe Creative Suite, Autodesk Suite, TinkerCAD, Tableau, CAD Software, Fusion360, Apex, Makerbot
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Specialized Skills:</span> Computer Vision, Engineering Design, Fiber Optics, Signal Processing, RF Engineering, Data Acquisition
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Instrumentation:</span> Mass Spectrometry, SEM, AFM, Raman Spectroscopy, Surface Profilers
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">LEADERSHIP & HONORS</div>
+                    <div class="skills-section">
+                        <span class="skills-label">President:</span> William and Mary Robotics Club (2 years), Data Science Society (1 year), Tech Executive Association (1 year)
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Outreach Director:</span> Society of Physics Students (1 year), Association of Computing Machinery (1 year)
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Awards:</span> William and Mary 2024 Hackathon Winner, Sharpe Community Scholar, Marine Corps OCS Attendant
+                    </div>
+                    <div class="skills-section">
+                        <span class="skills-label">Event Creation:</span> Producer and MC of Williamsburg STEM Symposium (William & Mary's first annual STEM symposium)
+                    </div>
+                </div>
+            </body>
+            </html>
+        `;
+
+        // --- PDF GENERATION ---
+        const element = document.createElement('div');
+        element.innerHTML = resumeHtml;
+
+        const opt = {
+            margin:       [0.5, 0.5, 0.5, 0.5],  // [top, left, bottom, right] in inches
+            filename:     'Emmanuel_Sampson_Resume.pdf',
+            image:        { type: 'jpeg', quality: 0.98 },
+            html2canvas:  { scale: 2, useCORS: true },
+            jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+        };
+
+        try {
+            await html2pdf().set(opt).from(element).save();
+        } catch (error) {
+            console.error("PDF generation failed:", error);
+            alert("Sorry, there was an error generating the PDF. Please try again.");
+        } finally {
+            btn.innerHTML = origText;
+            btn.disabled = false;
+        }
+    }*/
     </script>
     <script src="insane_animations.js"></script>
 
