@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Sampson - Resume</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #d4b5a0 0%, #e8d5c7 100%);
+            padding: 50px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            color: #2c3e50;
+            letter-spacing: 8px;
+            margin-bottom: 10px;
+            font-weight: 400;
+        }
+
+        .header p {
+            font-size: 18px;
+            color: #555;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .content {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .left-column {
+            width: 35%;
+            background: #f9f9f9;
+            padding: 40px 30px;
+        }
+
+        .right-column {
+            width: 65%;
+            padding: 40px;
+        }
+
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: 600;
+            border-bottom: 2px solid #d4b5a0;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 13px;
+            color: #2c3e50;
+            margin: 15px 0 5px 0;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-info, .skills-list, .interests-list {
+            margin-bottom: 30px;
+        }
+
+        .contact-info p, .skills-list li, .interests-list li {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        .contact-info a {
+            color: #555;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            color: #d4b5a0;
+        }
+
+        .skills-list, .interests-list {
+            list-style: none;
+        }
+
+        .education-item {
+            margin-bottom: 25px;
+        }
+
+        .education-item .degree {
+            font-weight: 600;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #2c3e50;
+        }
+
+        .education-item .date {
+            font-size: 11px;
+            color: #888;
+            margin-left: 5px;
+        }
+
+        .education-item .school {
+            font-size: 13px;
+            color: #555;
+            margin: 3px 0;
+        }
+
+        .education-item .details {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .profile {
+            margin-bottom: 40px;
+            font-size: 14px;
+            color: #555;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .experience-item {
+            margin-bottom: 35px;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 10px;
+        }
+
+        .experience-title {
+            font-weight: 600;
+            font-size: 13px;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .experience-date {
+            font-size: 11px;
+            color: #888;
+        }
+
+        .experience-company {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .experience-description {
+            font-size: 13px;
+            color: #555;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>EMMANUEL SAMPSON</h1>
+            <p>Engineering Student • Researcher • Creative Professional</p>
+        </div>
+
+        <div class="content">
+            <div class="left-column">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <p>Williamsburg, Virginia</p>
+                    <p>804.926.0822</p>
+                    <p><a href="mailto:ecsampson03@gmail.com">ecsampson03@gmail.com</a></p>
+                    <p><a href="https://linkedin.com/in/emmanuel-sampson">linkedin.com/in/emmanuel-sampson</a></p>
+                    <p><a href="https://github.com/emmanuelcsam">github.com/emmanuelcsam</a></p>
+                </div>
+
+                <h2>Education</h2>
+                <div class="education-item">
+                    <div class="degree">DUAL BACHELOR'S <span class="date">• MAY 2026</span></div>
+                    <div class="school">William & Mary</div>
+                    <div class="school">Williamsburg, Virginia</div>
+                    <div class="details">
+                        BS Physics (Engineering Physics)<br>
+                        BA Philosophy<br>
+                        W&M Hackathon Winner<br>
+                        Catron Scholar, Sharpe Scholar
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="degree">FILM PRODUCTION CERT <span class="date">• 2024</span></div>
+                    <div class="school">UCLA School of Theater, Film & Television</div>
+                    <div class="school">Los Angeles, California</div>
+                </div>
+
+                <h2>Key Skills</h2>
+                <ul class="skills-list">
+                    <li>Python, C++, MATLAB, Java</li>
+                    <li>Computer Vision & AI/ML</li>
+                    <li>Fiber Optics & RF Engineering</li>
+                    <li>CAD & 3D Modeling</li>
+                    <li>Advanced Instrumentation</li>
+                    <li>Data Analysis & Signal Processing</li>
+                    <li>Technical Writing</li>
+                    <li>Film & Photography</li>
+                </ul>
+
+                <h2>Interests</h2>
+                <ul class="interests-list">
+                    <li>Robotics & Automation</li>
+                    <li>Scientific Research</li>
+                    <li>Creative Writing</li>
+                    <li>Film Production</li>
+                    <li>Photography</li>
+                    <li>Philosophy</li>
+                </ul>
+            </div>
+
+            <div class="right-column">
+                <h2>Profile</h2>
+                <div class="profile">
+                    Analytical and innovative engineering physics student with comprehensive experience in optical engineering, computer vision, and advanced instrumentation. Demonstrated expertise in developing AI-powered solutions for fiber-optic systems, conducting cutting-edge research with national laboratories, and leading technical teams. Uniquely combines rigorous scientific training with creative problem-solving abilities, bringing both technical depth and artistic perspective to engineering challenges. Proven track record of winning competitive hackathons and delivering impactful solutions in both academic and industrial settings.
+                </div>
+
+                <h2>Experience</h2>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <span class="experience-title">ENGINEER INTERN</span>
+                        <span class="experience-date">MAY 2025—PRESENT</span>
+                    </div>
+                    <div class="experience-company">WEINERT Fiber Optics Inc • Richmond, VA</div>
+                    <div class="experience-description">
+                        Design and implement AI-powered computer vision systems in Python and C++ for automated fiber-optic defect detection achieving 95% accuracy. Develop real-time medical temperature monitoring sensors for surgical applications. Improved transmission efficiency by 30% for medical laser systems through innovative optical design and signal processing techniques.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <span class="experience-title">PHYSICS RESEARCH ASSISTANT</span>
+                        <span class="experience-date">OCT 2023—PRESENT</span>
+                    </div>
+                    <div class="experience-company">Applied Research Center Core Labs • Newport News, VA</div>
+                    <div class="experience-description">
+                        Collaborate with CERN, NIST, and CALTECH on low angle reflectivity experiments advancing materials science research. Assembled and operate TRIFT 4 time-of-flight mass spectrometry instrument for high-resolution surface analysis. Develop custom data acquisition systems using Python and LabVIEW. Manage advanced instrumentation including Hitachi S-4700 FE-SEM, Bruker ICON AFM, and Raman spectroscopy systems.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <span class="experience-title">STUDENT ENGINEER</span>
+                        <span class="experience-date">OCT 2022—NOV 2023</span>
+                    </div>
+                    <div class="experience-company">W&M Makerspace • Williamsburg, VA</div>
+                    <div class="experience-description">
+                        Educated 50+ students on CAD software and advanced fabrication techniques. Managed electro-optic equipment and 3D printing operations for academic and research projects. Led interdisciplinary team projects combining mechanical and electrical engineering solutions.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <span class="experience-title">MANUFACTURING ENGINEER INTERN</span>
+                        <span class="experience-date">MAY 2023—JULY 2023</span>
+                    </div>
+                    <div class="experience-company">Build Forward Foundation • Richmond, VA</div>
+                    <div class="experience-description">
+                        Maintained and optimized laser cutting and metallurgy equipment for precision manufacturing. Developed motorized vehicle prototypes using CAD and rapid prototyping techniques. Achieved 20% reduction in production time through process optimization and workflow improvements.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <span class="experience-title">CREATIVE PROFESSIONAL</span>
+                        <span class="experience-date">2021—PRESENT</span>
+                    </div>
+                    <div class="experience-company">Various Organizations • Virginia</div>
+                    <div class="experience-description">
+                        Film Producer at CultureWorks Richmond creating documentary content. Photojournalist for The Virginian-Pilot covering news events. Freelance Writer for Ideapress Publishing and FilmFreeway. Production roles with Two Beagles Studio LLC developing intellectual property. Combine technical expertise with creative storytelling to produce compelling multimedia content.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

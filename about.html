@@ -85,12 +85,12 @@
                 </div>
                 <div class="hero-skills">
                     <a href="#" class="skill-badge"
-                        onclick="navigateToTab('experience'); openInBackground('Emmanuel_Sampson_Resume_Tech.html'); return false;">
+                        onclick="navigateToTab('experience'); return false;">
                         <span>Physics Research</span>
                     </a>
 
                     <a href="#" class="skill-badge"
-                        onclick="navigateToTab('research'); openInBackground('Emmanuel_Sampson_Resume_Tech.html'); return false;">
+                        onclick="navigateToTab('research'); return false;">
                         <span>Engineering Design</span>
                     </a>
 
@@ -103,7 +103,7 @@
                     </a>
                 </div>
                 <div class="hero-actions">
-                    <button class="download-cv-btn" onclick="generateEngineeringResume()">
+                    <button class="download-cv-btn" onclick="openResumeAndDownload(event); return false;">
                         <i class="fa fa-download"></i>
                         <span>Download Resume</span>
                     </button>
@@ -720,7 +720,7 @@
                                 class="skill-badge"><span>Java</span></span><span
                                 class="skill-badge"><span>JavaScript</span></span><span
                                 class="skill-badge"><span>C++</span></span><span
-                                class="skill-badge"><span>HTML/CSS</span>
+                                class="skill-badge"><span>HTML/CSS</span></span>
                         </div>
                     </div>
                     <div class="skill-category">
@@ -870,6 +870,38 @@
             document.body.removeChild(a);
         }
         // --- END: New Helper Function ---
+
+        // Function to open resume HTML and download PDF
+        function openResumeAndDownload(event) {
+            // Prevent any default action
+            if (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+
+            // Open the resume HTML in a new tab
+            window.open('emmanuel_sampson_resume.html', '_blank');
+
+            // Create a hidden anchor with download attribute
+            const downloadLink = document.createElement('a');
+            downloadLink.href = 'Emmanuel_Sampson_Resume.pdf';
+            downloadLink.download = 'Emmanuel_Sampson_Resume.pdf';
+            downloadLink.target = '_blank';  // This ensures it doesn't navigate current page
+            downloadLink.style.display = 'none';
+
+            document.body.appendChild(downloadLink);
+
+            // Programmatically click the link
+            downloadLink.click();
+
+            // Clean up
+            setTimeout(() => {
+                document.body.removeChild(downloadLink);
+            }, 100);
+
+            // Return false to prevent any navigation
+            return false;
+        }
 
         // --- START: Mobile Navigation Toggle ---
         document.addEventListener('DOMContentLoaded', function () {
