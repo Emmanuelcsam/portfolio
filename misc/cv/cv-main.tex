@@ -1,0 +1,336 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Packages
+\usepackage[margin=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+
+% Color scheme - professional blue
+\definecolor{primary}{RGB}{0, 51, 102}
+\definecolor{secondary}{RGB}{70, 130, 180}
+\definecolor{accent}{RGB}{100, 149, 237}
+
+% Prevent widows and orphans
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
+
+% Section formatting with color
+\titleformat{\section}
+  {\color{primary}\normalfont\Large\bfseries\uppercase}
+  {}{0em}{}[\color{primary}\titlerule]
+\titlespacing{\section}{0pt}{16pt}{8pt}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{secondary}}
+  {}{0em}{}
+\titlespacing{\subsection}{0pt}{10pt}{5pt}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=primary,
+    pdftitle={Emmanuel Sampson - Curriculum Vitae},
+}
+
+% Custom commands for consistency
+\newcommand{\daterange}[1]{\textit{\color{secondary}#1}}
+\newcommand{\position}[1]{\textbf{#1}}
+\newcommand{\organization}[1]{\textit{#1}}
+
+% Better list formatting
+\setlist[itemize]{leftmargin=*,noitemsep,topsep=3pt,itemsep=2pt}
+
+\begin{document}
+
+% ============= HEADER =============
+\begin{center}
+    \color{primary}
+    {\huge\bfseries EMMANUEL CHIMEZIRIM SAMPSON}\\[8pt]
+    \color{black}
+    \small
+    \textbf{Location:} Williamsburg, VA 23185, USA \quad
+    \textbf{Phone:} +1 (804) 926-0822 \quad
+    \textbf{Email:} \href{mailto:ecsampson03@gmail.com}{ecsampson03@gmail.com}\\[4pt]
+    \textbf{LinkedIn:} \href{https://linkedin.com/in/emmanuel-sampson}{linkedin.com/in/emmanuel-sampson} \quad
+    \textbf{GitHub:} \href{https://github.com/emmanuelcsam}{github.com/emmanuelcsam} \quad
+    \textbf{Portfolio:} \href{https://emmanuelcsam.github.io/portfolio}{emmanuelcsam.github.io/portfolio}
+\end{center}
+
+\vspace{-8pt}
+
+% ============= EDUCATION =============
+\section{Education}
+
+\noindent
+\textbf{William \& Mary} \hfill \daterange{Expected May 2026}\\
+\organization{Bachelor of Science in Physics; Bachelor of Arts in Philosophy}\\
+Williamsburg, VA, USA\\[2pt]
+\textbf{Concentration:} Engineering Physics and Applied Design\\
+\textbf{Philosophy Honors:} Departmental Honors Candidate (Advisor: William D'Alessandro)\\
+\quad\textit{Principles for Maximizing Observations within Scientific Practice}\\
+\textbf{GPA:} 3.12/4.00
+
+\vspace{8pt}
+\noindent\textbf{Relevant Coursework:}
+\vspace{-4pt}
+\begin{itemize}
+    \item \textbf{Physics:} Quantum Mechanics I, Electricity \& Magnetism I, Classical Mechanics of Particles and Waves I, Modern Physics, Electronics, Scientific Instrumentation Lab, Stellar Astronomy \& Cosmology, Practical Computing for Scientists, Scanning Probe Nanoengineering
+    \item \textbf{Engineering:} Introduction to Engineering Design, Mechanics of Materials, Capstone EPAD Project
+    \item \textbf{Mathematics:} Calculus I \& II, Linear Algebra, Multivariable Calculus for Science \& Mathematics
+\end{itemize}
+
+\vspace{8pt}
+\noindent
+\textbf{Colonial Heights High School} \hfill \daterange{2018 - 2022}\\
+\organization{Advanced Diploma} \quad $|$ \quad GPA: 3.9/4.00\\
+Colonial Heights, VA
+
+% ============= RESEARCH INTERESTS =============
+\section{Research Interests}
+
+\noindent
+Applied physics and engineering with focus on fiber optics, optoelectronics, and photonics; Materials science including atomistic spin dynamics modeling and semiconductor development; Computer vision and artificial intelligence applications in defect detection and pattern recognition; Advanced instrumentation development for mass spectrometry and electron microscopy; Signal processing for RF engineering and sensor development; Interdisciplinary applications in medical technology and autonomous systems.
+
+% ============= RESEARCH EXPERIENCE =============
+\section{Research Experience}
+
+\noindent
+\position{Engineer Intern} \hfill \daterange{May 2025 - Present}\\
+\organization{WEINERT Fiber Optics Inc}, Williamsburg, VA
+\begin{itemize}
+    \item Designed and implemented AI-powered computer vision systems in Python and C++ for automated fiber-optic end-face defect detection, enhancing transmission efficiency for medical applications including kidney stone removal instrumentation and cancer treatment devices
+    \item Developed, trained, and deployed Convolutional Neural Networks (CNNs) using High-Performance Computing (HPC) clusters to accurately locate and identify microscopic surface defects
+    \item Engineered custom microscope hardware and proprietary software program that automated the full inspection process
+    \item Developed and optimized real-time medical temperature monitoring and logging sensors for surgical applications
+    \item Executed transmission testing and polarization alignment of stress rods for Polarization-Maintaining (PM) Fiber
+    \item Reconfigured and managed industrial robotics, programming user-interface and internal system integration
+\end{itemize}
+
+\vspace{8pt}
+\noindent
+\position{Physics Research Assistant} \hfill \daterange{October 2023 - Present}\\
+\organization{Applied Research Center Core Labs, William \& Mary}, Newport News, VA
+\begin{itemize}
+    \item Conducting fundamental research in reflective optics and atomistic spin dynamics modeling for next-generation semiconductor applications
+    \item Collaborating with international research institutions (CERN, NIST, CALTECH) on advanced physics projects including low-angle reflectivity experiments for particle detector development
+    \item Assembled and calibrated TRIFT 4 time-of-flight secondary ion mass spectrometry (TOF-SIMS) instrument for high-resolution surface chemical analysis
+    \item Operating advanced characterization instrumentation: Hitachi S-4700 Field Emission SEM, Bruker Dimension ICON AFM, HIROX KH-7700 3D Digital Microscope, Renishaw inVia Raman Spectrometer, and surface profilers
+    \item Managed \$4,000 budget for procurement of electronics and laboratory equipment
+    \item Designed and conducted reflective-optics experiments measuring infrared light reflectivity at shallow angles
+    \item Training graduate students and industry professionals on operation and theory of material characterization techniques
+\end{itemize}
+
+\vspace{8pt}
+\noindent
+\position{Student Makerspace Engineer} \hfill \daterange{October 2022 - October 2023}\\
+\organization{W\&M Makerspace}, Williamsburg, VA
+\begin{itemize}
+    \item Pioneered establishment of 3D Scanning laboratory for digital preservation of anthropological artifacts
+    \item Managed and resolved over 1,000 service requests through Microsoft Jira system
+    \item Trained and certified over 200 students on safety protocols and operation of laser cutters, 3D printers, CNC mills
+    \item Designed and led multi-level robotics workshop series with tiered curriculum
+    \item Maintained fleet of 19 3D printers, 150W CO2 Boss Laser cutter, and 8 sewing machines
+\end{itemize}
+
+% ============= PROJECTS =============
+\section{Projects}
+
+\noindent
+\textbf{AI Fiber-Optic Defect Analyzer} \hfill \daterange{May 2025 - Present}\\
+\organization{WEINERT Fiber Optics}\\
+Engineered custom microscope and software to automatically locate and identify surface defects on fiber-optic end-faces. Implemented computer vision algorithms in defect classification, enhancing transmission efficiency for medical applications in minimally invasive surgery.
+
+\vspace{6pt}
+\noindent
+\textbf{Atomistic Spin Dynamics Modeling} \hfill \daterange{October 2023 - Present}\\
+\organization{William \& Mary}\\
+Investigating optimal configurations of iron-nickel and cobalt-iron alloys to enhance magnetization properties as cost-effective alternatives to rare-earth metal semiconductors. Utilizing VAMPIRE software for atomistic simulations of magnetic behavior at nanoscale.
+
+\vspace{6pt}
+\noindent
+\textbf{WaveFinderAI - Microplastic Detection System} \hfill \daterange{Hackathon 2025}\\
+\organization{2nd Place Winner}\\
+Designed machine learning tool to detect and classify microplastic contaminants in fluid systems by analyzing unique reflective frequencies. Made to achieve real-time analysis of fluid velocity, contaminant size/shape, and concentration levels with applications in predictive maintenance for industrial hydraulics.
+
+\vspace{6pt}
+\noindent
+\textbf{Bird Sensor Technology} \hfill \daterange{William \& Mary Hackathon 2024}\\
+\organization{1st Place Winner}\\
+Developed an innovative IoT sensor system detecting bird-window collisions through frequency analysis. Engineered predictive model using electromagnetic signatures of bird flight patterns with real-time collision avoidance system.
+
+% ============= LEADERSHIP EXPERIENCE =============
+\section{Leadership Experience}
+
+\noindent
+\position{President} \hfill \daterange{2023 - 2025}\\
+\organization{William \& Mary Robotics Club}
+\begin{itemize}
+    \item Designed and delivered semester-long curriculum covering analog/digital electronics, RF devices, and control systems
+    \item Led weekly workshops for 20+ students with tiered instruction from beginner to advanced levels
+    \item Developed hands-on projects including autonomous robots and IoT devices
+\end{itemize}
+
+\vspace{8pt}
+\noindent
+\position{President} \hfill \daterange{2024 - 2025}\\
+\organization{William \& Mary Data Science Society}
+\begin{itemize}
+    \item Facilitated weekly technical workshops on Power BI, Kaggle, ArcGIS, and Tableau
+    \item Designed and launched advanced workshops on Computer Vision, Machine Learning, and Neural Networks
+\end{itemize}
+
+\vspace{8pt}
+\noindent
+\textbf{Additional Leadership Roles}
+
+\vspace{4pt}
+\begin{multicols}{2}
+\noindent\textbf{Executive Positions}
+\begin{itemize}
+    \item President, Tech Executive Association (2024-2025)
+    \item President, Photo Club (2024-2025)
+    \item Outreach Director, Society of Physics Students (2024-2025)
+    \item Outreach Director, Association of Computing Machinery (2023-2024)
+\end{itemize}
+
+\columnbreak
+
+\noindent\textbf{Committee \& Service}
+\begin{itemize}
+    \item Challenge Host, Association of Computing Machinery (2023)
+    \item NASA Volunteer, Langley Research Center (2023)
+\end{itemize}
+\end{multicols}
+
+% ============= HONORS & AWARDS =============
+\section{Honors, Awards \& Recognition}
+
+\begin{multicols}{2}
+\noindent\textbf{Academic Honors}
+\begin{itemize}
+    \item William \& Mary Spirit Scholarship (2024)
+    \item William \& Mary Catron Scholarship (2024)
+    \item Jennifer Bosanko Memorial Scholarship (2024)
+    \item GRASP College Success Scholarship (2025)
+    \item Sharpe Community Scholar (2022-2026)
+    \item National Residence Hall Honorary (2025) — \textit{Top 1\% of residence hall leaders}
+    \item Philosophy Departmental Honors (2025-2026)
+\end{itemize}
+
+\columnbreak
+
+\noindent\textbf{Competition \& Recognition}
+\begin{itemize}
+    \item W\&M Hackathon Winner (2024, 2025)
+    \item WaveFinderAI Hackathon — \textit{2nd Place Winner} (2025)
+\end{itemize}
+\end{multicols}
+
+% ============= TECHNICAL SKILLS =============
+\section{Technical Skills}
+
+\noindent
+\textbf{Programming Languages}\\
+\textbf{Proficient:} Python, MATLAB, C++, Java, JavaScript, HTML/CSS, Visual Basic, R, SQL, Arduino/C
+
+\vspace{6pt}
+\noindent
+\textbf{Software \& Tools}
+\begin{itemize}
+    \item \textbf{Engineering:} Autodesk Suite (Fusion360, AutoCAD), SolidWorks, TinkerCAD, KiCad, Autodesk Eagle, Multisim, Ansys HFSS, COMSOL
+    \item \textbf{Data Analysis:} Tableau, Power BI, ArcGIS, SPSS, Kaggle, Jupyter Notebooks
+    \item \textbf{Scientific Computing:} High Performance Computing clusters, LabVIEW, VAMPIRE
+\end{itemize}
+
+\vspace{6pt}
+\noindent
+\textbf{Laboratory Instrumentation}
+\begin{itemize}
+    \item \textbf{Electron Microscopy:} Hitachi S-4700 FE-SEM, Phenom SEM
+    \item \textbf{Scanning Probe Microscopy:} Bruker Dimension ICON AFM
+    \item \textbf{Mass Spectrometry:} TRIFT 4 TOF-SIMS
+    \item \textbf{Optical Characterization:} HIROX KH-7700 3D Digital Microscope, Renishaw inVia Raman Spectrometer
+    \item \textbf{Surface Analysis:} Dektak 3 ST Surface Profiler, Profilm3D
+\end{itemize}
+
+\vspace{6pt}
+\noindent
+\textbf{Specialized Technical Skills}\\
+Fiber optics characterization $\bullet$ Computer vision \& CNNs $\bullet$ Signal processing $\bullet$ RF engineering $\bullet$ PCB design $\bullet$ Circuit analysis $\bullet$ Data acquisition systems $\bullet$ Vacuum systems $\bullet$ Cleanroom protocols $\bullet$ Additive manufacturing (3D printing) $\bullet$ CNC machining $\bullet$ Laser cutting
+
+% ============= CERTIFICATIONS =============
+\section{Certifications}
+
+\begin{itemize}
+    \item Introduction to Python Training — The Boehly Center for Excellence in Finance
+    \item From Excel to Tableau — Data Visualization Certification
+    \item Tableau for Data Scientists — Advanced Analytics
+    \item Corporate Finance: Environmental, Social, and Governance (ESG)
+    \item Laser Safety Certification
+    \item Chemical Safety Training
+\end{itemize}
+
+% ============= LANGUAGES =============
+\section{Languages}
+
+\begin{itemize}
+    \item \textbf{English:} Native proficiency
+    \item \textbf{Igbo:} Native proficiency
+    \item \textbf{Japanese:} Conversational (4 semesters formal study)
+\end{itemize}
+
+% ============= PRESENTATIONS =============
+\section{Presentations}
+
+\noindent
+\textbf{Conference Presentations}
+\begin{itemize}
+    \item ``Atomistic Spin Dynamics in Iron-Nickel Alloys'' — William \& Mary Undergraduate Research Symposium (2026)
+    \item ``Building Convolutional Neural Networks For Computer Vision Within High Performance Computing Clusters'' — Super Computing (SC25) (2025)
+\end{itemize}
+
+\vspace{6pt}
+\noindent
+\textbf{Technical Reports}
+\begin{itemize}
+    \item ``Low Angle Reflectivity Measurements for Material Characteristics'' — Applied Research Center Collaboration with CERN, NIST, CALTECH (2024)
+    \item ``Optimization of Fiber-Optic End-Face Inspection Using Machine Learning'' — WEINERT Internal Report (2025)
+\end{itemize}
+
+% ============= REFERENCES =============
+\section{References}
+
+\noindent
+\textbf{Dr. Douglas Beringer}\\
+\organization{Head Research Engineer}\\
+Applied Research Center, William \& Mary\\
+Email: dbberinger@wm.edu\\
+\textit{Supervisor for research conducted in the Applied Research Center}
+
+\vspace{10pt}
+\noindent
+\textbf{Dr. David Lahneman}\\
+\organization{Production Engineering Manager}\\
+WEINERT Fiber Optics Inc.\\
+Email: david.lahneman@weinert-industries.com\\
+\textit{Direct supervisor for fiber optics research and AI development}
+
+\vspace{10pt}
+\noindent
+\textbf{Dr. Dennis Mannos}\\
+\organization{Vice Provost of Research at William \& Mary}\\
+William \& Mary\\
+Email: dmmanos@wm.edu\\
+\textit{Research director of the Applied Research Center}
+
+\end{document}

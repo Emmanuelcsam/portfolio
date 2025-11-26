@@ -1,0 +1,990 @@
+0:00  
+Device, your camera.
+
+0:13  
+Right about now, you ought to be able to hear me really well.
+
+0:15  
+Yeah, I can hear you much better. Whoops, and you're very loud.
+
+0:21  
+Okay, gotcha. You
+
+0:22  
+all right, all right. I am currently in Blair, the philosophy and history building. Blair,
+
+0:32  
+oh, Blair, I used to have an office there.
+
+0:34  
+Yeah, you told me that you also had, like, a library.
+
+0:40  
+Well, I mean, I had you were there, right?
+
+0:42  
+Yeah, yeah. I meant you had a book that you want to give me about electronics.
+
+0:49  
+Yeah, I want to. It's in my office, in small, I think, not this office, and I want to take it. I'll leave it down in the lab. Maybe it was the one that you had a really ratty old copy of, I think I got a little newer and better copy.
+
+1:04  
+It was
+
+1:10  
+the famous two person
+
+1:14  
+second edition introduction to electronics,
+
+1:19  
+Horowitz and Hill. That's it. That's it. How can I forget?
+
+1:23  
+How could anybody forget I just did? All right, I've looked at your resume, which is pretty, pretty, and I've looked at, I don't know what this is exactly. It's a list of, I don't know what, but every school in the world, except I don't know which ones you should pick to and then every company in the world, and a lot of which I wouldn't work
+
+1:45  
+for. No, no, you want to hear something funny about this? Yeah, I do. Yes. Okay, so I was making this on obsidian, which is really funny and like, it just, um, so I can, I can show you my work now, but there's this. No idea what obsidian is. It's a note taking app, and so it's integrated with, like, some like auto completion functions and things of the other and so I was messing around with my friends. And like, when you when you type in a company, it like reads your notes and it tries to guess what you're gonna say next.
+
+2:31  
+We call that auto complete. Yeah, and auto complete has gone completely wacky, yeah, with things like Gemini and even Claude. I i shun that stuff? Yeah, I know, yeah.
+
+2:47  
+So I hope, I hope, when you saw that list, you didn't see it wasn't reflective on my personality.
+
+2:54  
+That didn't bother me a bit. What what bothers me about it is what I love about your resume and what bothers me about your resume, you're, you're, you're exactly like me. And I don't know how many times I've told you don't ever be like me. You're unfocused. Somebody said, What? What is this person focused on? I'd say nothing. They're not focused. They love everything. They can do anything, and they have done everything, and they are doing everything. They are not focused so and then a PhD graduate student, you have to be willing to be yoked to a particular problem for four or five years. Five years, let's say five years. That's what it means. I just, I just think, given who you are, you're not gonna love that, but maybe you will. I don't
+
+3:53  
+know, yeah,
+
+3:55  
+yeah, I've, I've thought about that and like, I think, I think it would benefit me to develop a focus like this is this is what I would tell the the graduate, like people like who are interviewing me like I would tell them that I would not only benefit from developing a focus, but I've been in a position where all I had to Do was one thing, and I've excelled at that one thing. So for instance, the internship I had last summer. So the internship all like they were paying me to come into work and to make a project.
+
+4:39  
+In turn, I heard internship.
+
+4:42  
+I almost didn't hear the P and I almost didn't hear the internship.
+
+4:47  
+At the internship I was at, um, they were paying me to just come in and work on a program, and so from they, they gave me hours from eight to 4pm but I showed up at 7am as soon as, like, lights were on, before even lights were on, before my supervisor got there. I showed up like, 7am and I didn't leave until the last person left, because I was fixed on, like, making this program. I was fixed on this one thing that I could push forward and I feel good. It was nice. I wouldn't have done it if I, if I did not enjoy it, like, even outside of the internship, I was like, Okay, tomorrow I could be doing this next or working on that part. You know, I was, like, researching outside of it, so then I could get it back in the next day and learn more and build more. And I think, I think it's just the nature of, like, undergraduate studies that, like and the liberal arts that allows me to be so spread, not only that, but like, I've developed, like, a relationship with, like, many of the people and departments here that, like, I feel like I have to serve their like I have a responsibility to do my best for them as well. But in the graduate program, it's going to be about what I can do with what I'm focused on, and what I
+
+6:12  
+if you go, you should not go for a master's degree. That's I think Skyler could have decided to apply to a PhD program. He could have gotten anywhere, and would have gotten in anywhere, and he would have been supported to go, but he said, I want a master's degree instead. And nobody supports master's degrees. That's a problem. So you're not if you're going to graduate school, you're not at all interested in stopping at the Masters, you want to continue to the PhD, yeah, and you need to find a good reason why that's so, yeah, why? And I think if I were going to give it a quick answer, and I didn't give it an answer when I was a kid, we didn't ask. I mean, your resume, i Holy shit. I mean, my resume would have read like four lines on this thing, Tom's. I had a lot of jobs, but I never did anything relevant or real. You folks in the millennial generation, I know what the hell they call you now, yeah, whatever, whatever the hell they call you. You are over achievers, like and a factor of two or three is the most incredible you've done everything UCLA for film, you get me. Also, James Comey did a Bachelor of Arts in philosophy with honors. I don't think he had a second major. Do you want to be like James Comey? Maybe not, but if he does go to jail, he'll go because he was the former director of the FBI.
+
+7:50  
+So that's that,
+
+7:55  
+right, engineering physics with your left Come on, really? Yeah, holy crap. Okay, so I'm impressed. Yeah, I wrote here. Emmanuel Sampson, CV dash, a very impressive undergrad. That's a very impressive
+
+8:14  
+Thank you. I
+
+8:15  
+want to go through it in some detail, because I know you're gonna ask me to write a letter,
+
+8:20  
+and I know, if I looked at the CV, I'd say,
+
+8:24  
+Geez, what does this mean? What? Tell me, you know, I would ask you some questions here to interrogate. How deep did you go in any one of these things? Because I know a couple of these. You did go pretty deep. You claim that you manage the $4,000 budget to procure electronics and essential laboratory equipment. And I'll bet you, if I asked you, by the way, I wouldn't say classical microscopy. I'd say optical there. Can you change that? Yeah, instead of classical, but optical and electron microscopies, but all that stuff above there, I would say, What did you? How would you explain what you actually did, which is to put together a small laboratory subset dedicated to design, build and test small electronic circuits, components, devices, etc. I mean, that was a self contained little laboratory corner. And I think you did a terrific job. And I think if anybody asked you, you would be able to tell them, No, I bought this. I bought that, one of these, and two of those, and was because you needed, and I had suggested a signal a doctor, a signal analyzer, to the boss, but at the time, it was $6,000 and he thought that was a little much, until we knew what the usage was like. So but, I mean, there was a reason why you bought everything you bought, and I think you could explain it. So I would ask you to explain a little bit to me about this before we do too much more
+
+10:04  
+about what you really
+
+10:05  
+want to do. Yeah, so do you want to need to explain that specifically or, like the entire
+
+10:10  
+let's go through here. Let me ask you some questions. Okay, you did two hackathons and one first prize and second prize on your hackathon. So many people were in those hackathons.
+
+10:22  
+So I actually did eight hackathons. And so most of the hackathons I go in to learn and meet people and like, learn different ways to build a project at the hackathons, I won. I was really fixed on the actual building of that project. My first hackathon I won was someone asked you,
+
+10:46  
+how many people were in competition with you in those hackathons
+
+10:51  
+there? There was for the two that I won. The first one was around 250 to 300 people.
+
+11:00  
+That's what I was fishing for. Yeah. And were they all from William and Mary?
+
+11:07  
+No, some people were from UMD.
+
+11:09  
+The correct answer to the question, you be me and ask me the question, I'll be you. Well. I mean, that varies. Of course, I've done eight of these, so it varies widely. But for example, in 2024 there were between 250, to 300 competitors drawn from 11 universities, all of those from Virginia, plus locally, local states, Delaware, North Carolina. We even have somebody from as far away as and I picked the furthest away person that would be my answer to that question. Rather than digress into what I want to talk about, I see answer the question, but blow the son of a bitch away with the answer, because you came in number one out of 300 people.
+
+11:59  
+Should I say that again,
+
+12:02  
+came in number one out of 300 people. And you were having a bad day. You had a bit of a flu. You had been up all night the night before, so you came in number two out of 300 people in one in the other one that we're looking at, all right, that's the end of that question you get. Where I'm going, yeah, yeah. Understated. You understated by doing just matter of fact? Oh, yes, as a matter of fact, every single person on the planet was in competition. I don't know what the final scores were for everybody, but I know I got 1000 and the next nearest score was 642
+
+12:43  
+flap. No bragging, no, just
+
+12:46  
+boom, yeah.
+
+12:48  
+Okay, now I want you to tell me a little bit more about
+
+12:53  
+your bird sensor. All right, so the bird
+
+12:57  
+electromagnetic spectrum of a bird in flight?
+
+13:01  
+No, so the bird sensor was a little more rudimentary and simple and effective. It was, it was a way to try to predict birds coming in by, like, seeing the voltage drop of signals around the area of impact. So if there was a high area of impact there would cause like a, like acoustic voltage drop in in the what was your sensor? It was a magnetometer,
+
+13:33  
+a distance, local magnetometer, in contact with the glass, or
+
+13:39  
+in contact with the glass. Okay,
+
+13:42  
+so it was you it would turn the magnetometer essentially into a vibration sensor. Yes, right. Okay, I understand. So why not use a vibration sensor?
+
+14:00  
+Because a vibration sensor wouldn't be able to, it wouldn't be able to find the proximity from the bird to the glasses, which is what we're essentially looking for. We more so wanted like a proximity sensor. That's why we use matte founder, if we just use a vibration sensor, then there would be no like advancement in the fact that we're trying to prevent birds from using glass a signal
+
+14:31  
+before the bird hit the glass,
+
+14:33  
+we saw the proximity from the glass to the bird. Yeah, the mag founder was built into a proximity sensor. I don't
+
+14:45  
+understand. Tell me what the proximity sensor was.
+
+14:51  
+I I can't say more than it was an ultrasonic sensor that,
+
+14:59  
+yeah, it was an ultrasound. So it was a device broadcasting ultrasound and looking for reflected ultrasound, yes, and it was outside the window, yes, not inside.
+
+15:14  
+No, when you said paired with the window, I thought, yeah, it was, it was outside the window.
+
+15:22  
+And here's my window, here's my ultrasound proximity sensor, and you're the bird coming toward the glass. I see you. I get a signal, and then you hit the glass, and that's bad.
+
+15:40  
+So the next step of the project would have been to find some preventative measures such as like a predatorial sound or like a smell, but within loud noise might do it just a loud noise, yeah,
+
+15:53  
+flash of light and a loud noise, yeah, stop. How far away could you see the bird?
+
+16:02  
+See? Around 10 feet.
+
+16:05  
+That's good, yeah, except a really fast moving bird that gives you maybe 100 milliseconds or so to do whatever it is you're going to do. But so this was an ultrasound detector. You it so unique electromagnetic signature of bird flight patterns, and that does that matter in this context? No, I mean, you're just seeing something coming, saying, Stop. Yeah, but you don't care if it's a robin or an eagle. No, no. You do care, because the Eagles coming through the windows gonna make a mess.
+
+16:50  
+Robin will bounce off and make a mess outside.
+
+16:52  
+The aim was to
+
+16:55  
+deter all birds.
+
+16:59  
+Yeah, so who was the mentor for this? Did you have a sponsor for this? No.
+
+17:04  
+So hackathons, you're on your own with about like 24 hours or less to make any project and propose it to its best. So this project was aimed
+
+17:19  
+with the word So, unless you're applying to MIT or Harvard, because Harvard and MIT, they start every sentence with the word. So it's, I call it an intellectual pretension. It's specific to Boston, Massachusetts. You're supposed to use more than one if you're going to do it, you go, so, so, so, so So I found this project because, and you start every sentence that way, even though you're the most eloquent SON OF A BITCH since Winston Churchill, you're trying to convince people that you're ineloquent so that you're more real. And that's the Harvard and the MIT pretension. Don't do it unless you're applying to that.
+
+18:03  
+The project aims,
+
+18:04  
+with you this whole time, to throw you off balance, because you're going to be off balance the world when you're interviewing.
+
+18:13  
+Yeah, I really, I really do appreciate it.
+
+18:16  
+Project is because you knew here's why you picked it, whether this is real or not, why you might have picked it is because you knew that Professor hinders and Professor crystal and Professor swaddle, all of whom work at William and Mary, have a deep and abiding interest in bird strikes, and that John swaddle has done active research In the domain of developing engineering solutions for bird strikes, as has Professor Hindus. Professor hinders has used ultrasound more exclusively. Professor swaddle has used whatever detection techniques are necessary in order, mainly to make the proper noise to scare the birds before they strike wind turbines, which is his primary concern.
+
+19:02  
+On that note, Professor swaddle was actually the one who proposed the project to the hackathon. Oh, which is,
+
+19:10  
+that's why you picked it. It sounded like the most interesting thing that was proposed that year. You know, it's important.
+
+19:18  
+He, yeah, he proposed the Pro. So when projects are proposed, they're kind of like ambiguous phrases. And so he just said, create a device that prevents bird deaths. And so I came up with
+
+19:33  
+that doesn't prevent, that one detects the bird in time to prevent. Yes, he's actually been working on this a lot with a number of companies, and has been funded by overseas companies to develop systems that are robust enough to put out in wind firms. Where this is a real problem. It's a real problem off the off the shore of Virginia, 76 wind turbines out there, and they're right on the path that, for example, windbreak use on the eastern flyway. And so that could be a real issue, because some of the birds that might be struck by the either hit the tower or the concrete or the rotating vein, all of which is pretty much fatal to the bird. Yeah, some of the birds on that flyway are low, small populations that we'd hate to see killed. Hinders. On the other hand, has been working on protecting tall buildings during migratory seasons, where birds get terribly confused by city lights and attracted by the high buildings and fly right into it that kills way more birds than wind turbines. Yeah, and cats kill way, way, way, way more birds than everything else put together. Yeah. So you know your house cat is the single worst thing to ever occupy the planet. From the standpoint of migratory birds. All right, let's talk about this other project where you won second place. You did a wave finder. Ai. What is that?
+
+21:11  
+So I looked into Richard, sorry. I looked into research on sensing plastic in the same way as astronomer would sense different chemicals in a star. So there was electromagnetic sensing of plastics, and this project aimed at finding the different types of plastics and concentrations of the plastics.
+
+21:39  
+Let me slow your roll there.
+
+21:42  
+Electromagnetic is pretty broad. Goes from DC out to gamma rays. Where were you looking?
+
+21:51  
+So I was looking at
+
+21:55  
+infrared spectroscopy of plastic.
+
+21:58  
+Yes, okay, yeah, that's exactly how a little bit of small molecule work is done by spectroscopists who work in astronomy. What were you looking for? Various c, c, x, where x is, anything else stretches, yes.
+
+22:18  
+So anything in terms of a contaminant and water was what we were looking for. We The goal was to to find plastics and then find a way to collect the data of the plastics in reference to the water concentration, so then we could find the groupings of the plastic, see how they affect the fluid mechanics of the water.
+
+22:44  
+That's too much for a 72 hour. That's a PhD thesis.
+
+22:49  
+Yeah, you can't do that in 72 hours. So within that,
+
+22:52  
+you can do is pick a small target, go after it, with it. What do you use? What was your sensor?
+
+22:58  
+So I used a unit hickor K 10, which is a grouping of sensors. It's similar to a Raspberry Pi in that it has different sort of it's a it's like a robust Raspberry Pi that has different sensing capabilities, such as infrared AI, like computer vision and other things my project specifically,
+
+23:27  
+those things are nothing like each other. Yeah.
+
+23:30  
+Infrared sensor is a thing that senses infrared and takes infrared light, turns it into a voltage signal. AI, ml, those are methods by which I will analyze the signal once I get it. I don't care if it's entire pressure in my car or the infrared sensor looking at carbon monoxide on Mars, they're not the same thing. So what does a unit hickor have in it that you actually use to see infrared?
+
+24:01  
+It has a small infrared camera attached to the back of
+
+24:05  
+it. Cool, yeah. How much does this thing cost?
+
+24:09  
+It's depending. I got it in a bundle, which was $66 on sale. When I saw it was on sale, I bought it as soon as I could. But it's usually up in the 90 to 100
+
+24:22  
+100 bucks, yeah, but an infrared camera used to be a couple 1000 bucks all by itself. So this has a rudimentary infrared camera. What? What wavelengths can it
+
+24:34  
+see this? I do not know. The project specifically aimed at creating a machine learning tool to simulate this being accomplished.
+
+24:46  
+Okay, so in other words, you you didn't actually look at a real signal in a real water column. You were just interested in developing the machine learning tool to analyze it if and when it did
+
+25:00  
+Yes, I mean, in
+
+25:05  
+72 hours, you just couldn't possibly do all
+
+25:09  
+Yeah, so I focused on creating the machine learning tool for analyzing
+
+25:13  
+page what's the certificate known as the Boley Center for Excellence in finance. So do to get one of those?
+
+25:21  
+I actually got it twice, um. So when I came to William Mary freshman year, I
+
+25:29  
+my question, what do you have to do to get one of those?
+
+25:34  
+You have to apply for the
+
+25:37  
+for the business school Python program, which only takes about 20 students every year. And then this Python program is a day of just a Python boot camp to teach you everything about Python from the front to the back.
+
+25:53  
+Then when you finish that, you get a certificate, yes, that says you have taken a whole day of Python from the Boley Center at William and Mary. Yes, good. Now I understand what that is. I don't need more introduction to Python training. How is that different from what you just told me?
+
+26:15  
+I think you have to do to do that. I think those are supposed to be on the same line.
+
+26:21  
+Okay, put them on the same way, or maybe they were in my printer took Emmanuel, what is from Excel to Tableau?
+
+26:28  
+Tableau is a data science program that allows you to do things such as,
+
+26:37  
+yes, yes. What is the certification from Excel to Tableau this. Do these three lines belong together on one line?
+
+26:45  
+Yes, yes, from Excel to Tableau, yes.
+
+26:49  
+So it's everybody's introduction to Tableau, Tableau for data scientists. So you took a class? Yes.
+
+26:57  
+I've taken several online training certificates in data science because of my interest in in this field and trying to understand how to actually use the data I get as a physicist. What else did you take? So I took introduction into data science from Excel to Tableau, and I took a
+
+27:20  
+different classes. Okay, so three, three online classes, yes, yes, okay, and now, so that means you know a little about data science, organization into two dimensional tables or multi dimensional tables, and how to handle data, how to organize it. Okay, good. What's corporate finance, environmental, social and governance.
+
+27:46  
+So I another online class? Yes, another online class.
+
+27:52  
+This is also from LinkedIn learning, yes.
+
+27:57  
+In case, anybody case, I'm asked to write you a letter. I'm not going to make too big a deal about these things. These are things that even I do. Sometimes I'll just take a class on board. See, that's what you do when you board. Other people do bad stuff. That's it's better. All right. You are the robotics club president, I get that Data Science Society president, technical Executives Association. What the
+
+28:26  
+hell is that? So I would love to tell you about this. Technical executive Association is a group of like nine to 12 students who all run their like, individual clubs and student organizations. And I lead the group and help them collaborate, make events and bring in networking events for each of the leaders to lead, yes,
+
+28:50  
+say it that way, because that puts you Primus Perez in a pretty exclusive club of really good undergrads. So you are teaching leaders to lead.
+
+29:06  
+And how many people get to do this? 10? Ish, yeah.
+
+29:13  
+Tribe innovation consulting, club Marketing and Communications,
+
+29:18  
+tries to help people sell their stuff
+
+29:20  
+or what. Yes, so tribe innovation connects with different companies and school departments across campus, and then also teaches students how to get better at like consulting roles and things like, Who do you work with on that? For tribe innovation, this was led through the business school, but their main connection was steely and other organizations.
+
+29:49  
+Did you work with Brandon or with Graham Henshaw or no, this is a separate student organization just within the business school. Okay, strictly students
+
+30:01  
+and who's the head Business School professor that is the lead. Is there a liaison for this?
+
+30:06  
+No, not the moment. I don't, I don't, I don't know. Should be, though. I mean, yeah,
+
+30:12  
+that's one that somebody like, I mean, we have three or four people on record after that photography club, so faculty mentor for that
+
+30:24  
+there is not photography club was dormant until I came around and revived it, bringing in 20 students every week to like, teach them different ways of photography and different units of how to do photography. I had to do this because I had campus departments asking me to take photos at a constant basis, and I was getting to the point
+
+30:48  
+why you Steve Sampson is our official university photographer. We send him out to take pictures of
+
+30:56  
+everybody. Steve, just like me, is one individual and so different campus departments need their own personal photographers, and so they started like calling on to students, and then it became me that they would call on to and
+
+31:11  
+web pages, or for what purpose,
+
+31:15  
+what the photography was.
+
+31:17  
+Yeah, why were they asking? Why would the History Department want to get you out there taking
+
+31:21  
+pictures. There's plenty of research and events going on throughout the year, and so for
+
+31:28  
+promotion of their activities and maintenance of their websites, they need new material. Photographic material being welcome. Not only that, I come back to why you? Yeah, the answer must be, you've got the you're carrying the biggest iron that doesn't belong to either Elliot dude, Dick or Steve Sampson.
+
+31:50  
+I wish I was
+
+31:55  
+What are you shooting? So I shoot with anything. So I shoot with anything that the reader Media Center allows me to have, mostly it's a lot of stuff. Yeah, yeah.
+
+32:07  
+Make that point, because one of the things the reader Media Center will lend you is 12,000 frame per second high speed camera that we keep I have in the basement of small hall, but I used to keep in Reader media, and they should, I should put back there. I forgot to put it back after Marguerite left. Yeah, so you coming, you can do a lot of interesting work with what they have. That's good. All right, so robotics, data science, technical drive photography, going backwards here. This is good, and we're rolling up student Makerspace engineer, 1000 services in tech. Have you worked with, directly with Jonathan?
+
+32:51  
+Yes. So this was, this was freshman and sophomore year before I joined the Applied Research Center, I was the student Makerspace engineer. And I would
+
+33:00  
+say that, say that you work directly for the director of the maker spaces as part of a select group of four undergraduates chosen for their demonstrated talent in managing the equipment that's necessary for prototype manufacturing. I get it, that's good, and I'm glad you were one to four, and I remember that, and I stole you from I did, okay, physics research assistant, wide Research Center, Core Labs, yes, you also need, I mean, you didn't just do electron microscopy.
+
+33:46  
+What do you know how to run in? In the arc?
+
+33:50  
+I know how to run the Phenom, the dead tech. And then I been
+
+33:57  
+deck tech, yes, yes.
+
+34:01  
+The phenom, the Detect. Let's see the Reman, yes, yes, yes, FTIR. I haven't done the FTIR in a while. Do it? Yes, yes.
+
+34:12  
+Get in there and have Olga show you how to do it, so you can say you did it. Okay, okay, so Roman and FTIR go together, yes. Complementary techniques. You ever use the Alexa meter,
+
+34:24  
+ellipsometer? I think I was trained at some point.
+
+34:29  
+Okay, so you could say I'm trained on it, and it is a variable wavelength, look up its characteristics and make sure you say that. And then, what about the high rocks?
+
+34:38  
+Oh, yes, I've used the High Rocks.
+
+34:40  
+That's computed optical tomography for enhanced spatial and spatial resolution and magnification. So that's a really, that's a fancy microscope that I mean most like. So, you know, I grew up with a binocular laboratory microscope doing hematology, parasitology, bacteriology, and you take that thing up to about 400x without doing anything special, and that's called high dr Maxim. You have a turret down here with four lenses on it, or three, and a thing up here, we could slip in one of two different kinds of oculars. So you slip in some oculars, and usually 10x or 20x then you dial up 10 or whatever on the bottom, times the 10 or 20 in the ocular and that's your total magnification, I dry is 400 and at that point, when you look at a blood slide, you can see white cells, but not very well, and red cells look like fairly small little dots. You when you want to go up, you go up to 600 or in some rare cases, with a really good old, old school microscope, it might be able to get up to 800 or 1000 but at that point you have to put a drop of oil between the lens and the glass that you're looking through. It's called oil immersion. They better couple, because having the index of refraction of air in between this piece of glass, that piece of glass messes you up and does a lot of chromatic aberration. Yeah? All right, the high rocks can go up to six, 4000 walking away, and 6000 on a good day, and it's air coupled. Yeah. The only way that can happen is it does. It's cheat. The High Rocks moves constantly, and it's taking section after section as it does this Z motion. And in some cases it'll do it doesn't, but it can do a rotation, and it's taken all that input and computing the object that created it, yeah, and it is accurate. It's you could do it. Do 600x on the high rocks to 600x on a standard binocular scope, and you will see the same thing. You will believe what you see. Do a couple 1000 on the High Rocks, do a couple 1000 on the phenomenon, and you will see the same thing, even though they're wildly different techniques. Yeah, it's magical. It's only 20 years old. That technology is only 20 or 25 years old, and you know how to use that as a good thing. So now you know everything. So I'm going to put down the hierarchs, because you've used it, if you haven't, I want you in there next week taking some pictures of things that go in your personal portfolio with your other photographs, because you'll be happy you did all right. The other thing you ought to know is your Core Labs have heard of a statewide University Consortium, and you are as a member of that staff. You work not only for me and Doug at William and Mary, but in principle, you work for any of the 12 PhD universities that are signed on to that multilateral agreement. And so ODU and Jefferson labs part of that so is the Mariner Museum and other public not for profit organizations. So you're part of a big network of people doing very high level service to the state of Virginia. So thank you for your service engineering intern at minor. And I think I know this one, yeah, but I want this is the one that you really focus on, because this is the one that taught you that there is immense pleasure in focusing on a particular single thing, just going after it like a lion after a damn gazelle, and you just get to Run this problem down and grab it by the neck and shake it until it's yours. That is something that most people don't ever get a chance to feel. You got a taste of it from binder, and you're grateful for that. And they are the ones who kind of convinced you that you really want, maybe want to go in and focus on a PhD and learn that you've got all the breadth of the world now, I mean, I can't think of anybody I've known in my 33 years here who has a wider variety of interests or abilities than you Do, but now it's your turn to indulge yourself in the depth of a problem by just how far down does this problem go, and how many interesting things in that you're kind of boring a deep, fairly narrow hole and Looking around the perimeter to see what are you finding down here? It's interesting that a lot of problems don't stop. They can take your entire damn life, and you can just keep going and joining Yeah, and that the joke is that you will know more and more about less and less, until finally, you know absolutely everything about nothing. Yeah, that's the joke on PhDs.
+
+40:28  
+I actually enjoy um while I was there. So this wasn't part of my internship, so I didn't really like go too deep into what is that word internship?
+
+40:38  
+Thank you. So there's an M in there, there's a T, yeah,
+
+40:49  
+this wasn't part of my internship, so I didn't really look deep into it. But, like, I was really, really, like, eager to look into this once I got the chance. But there's this computer program behind most computer vision systems called Huff circles, named after some guy named Huff. And it like it approximates the circle. It's developed by multiple like PhD, like I'm going
+
+41:15  
+to approximate a circle. I'm going to make a polygon with n sides as n goes to infinity, I just approximated a
+
+41:23  
+circle. It approximates a circle with computer vision by following the gradient trend and geometric fitting of of the like image. So if I were to hold my hand like this, I would follow the gradient difference between my fingers and the rest of the image. This works sometimes, even though it's used like widely as a main confusion Computer Vision Program. It needs to be like refined over and over again. But I found that there is a possible way of refining it, by using a random Sampson consensus method, combining with like some additional geometric and calculus to better approximate the circle at a faster rate. I'll
+
+42:10  
+stop here and just one more time object to my particular take the difference between optical detection and sensing and vision. Vision has a motive attached to it. So if I'm making these things and they're coming down the line and they're in different orientations, I want this camera to talk to the computer and say, yeah, here's a cup. This is the kind of cup that we're doing, and you can pick it up by changing your attitude. So there's a motive vision implies, in vision implies nouns, yes, that I can attack, okay, where detection can be very much broader, yeah, what you're talking about is a combination of both, yes, using computer optical detection techniques in a vision environment,
+
+43:12  
+yeah, I found that I, if I was given the chance to really look into that problem, I could possibly push forward the way that we detect different geometries. And I thought that would be really interesting, too
+
+43:26  
+nebulous. That sentence, that sentence was nails on a chalkboard to me, because the verb push forward didn't make a picture in my head. Different geometries didn't make a picture in my head, and you didn't give me a context for the preliminary positioning of the problem you really want to
+
+43:48  
+solve. I would like to better detect. I would like to better advance
+
+43:55  
+your hardest single problem you faced at Viner in the summer,
+
+44:01  
+with respect to
+
+44:03  
+either discrimination or detection or identification.
+
+44:07  
+This, this, this is a separate project that I was considering going into, but it was more of a research topic than like the industry like topic that I was like, going for. So I was considering going into looking at how to advance the Huff circle detection method by using a random sampling consensus method with my own mathematical background.
+
+44:33  
+I don't, I don't love that formulation of this problem, because if I were Emmanuel, I probably do somewhere, and I've probably forgotten I ever saw it tough circles not ringing a bell with me. And it's probably chapter 27 out of 250 chapters in the five volume Computer Vision Series of handbooks. Why would I focus on that one when I'm going for a PhD, I would be interested in advanced methods such as the Huff circle for the detection of gradients in the identification of objects. Okay, because you you can't do a PhD, probably on the Hough circle quite you probably have to read every alternative to that technique.
+
+45:42  
+Let me plug in my laptop real quick.
+
+45:48  
+Yeah, my this
+
+45:50  
+guy is the chief of the
+
+46:10  
+this guy is the chief of the fire. You
+
+46:34  
+all right, so in terms of the actual internship, I was able to create a way for detecting fiber and face defects with basics, basic development boards such as a Raspberry Pi or raspberry Pico, everything great, because you and
+
+46:56  
+I've been over
+
+46:59  
+this, put that, put together a very fluid and fluid 62nd sun that says, I worked with Viner on a number of things, primarily on the detection of face defects, on severed and polished fiber, and on edge defects that were, tell
+
+47:22  
+them why it's important, etc.
+
+47:25  
+So maybe 60 seconds, maybe it's 40 seconds, but that's really important. And if you get a chance to digress and don't offer it, but the fact that you're interested in this, I'm going to call in abstract method for detecting gradients. I I'm not sure what off sickle does or is, but I mean, if I had some circle and it were my detector and I brought it over some place where I was going to see four or five different things, you know. So is it some integral I don't know. I don't know what you're talking about, yeah, and I don't need to know what you're talking about, but I need for you to know what you're talking about, and for you to be able to, in 60 seconds there, tell somebody what the problem is, why it's important, and why solving it would be of great value to Google. Yeah, if you can do that, they're going to say, we want this guy. I don't care who they are, they're going to want this guy because that's how you write a winning proposal for $100,000 or $100 million they all go through exactly that. Okay, so what did I say? Set the table. Why is this problem important? Why did it draw your attention? How does it work? How will you improve it, and why?
+
+48:59  
+What are people doing right now? What's called the hub circle?
+
+49:04  
+Oh, yeah, okay,
+
+49:07  
+yeah. All right, we got
+
+49:10  
+what else to say, other than you have a very active resume and you've got a lot of things going on, and what is your philosophy thesis? You have an honors thesis in progress. Right?
+
+49:25  
+The honors thesis at first centered around the idea of, what do we actually understand when it comes to or how do we, how do we, how do we relate to knowledge that we can't fully understand, such as like ambiguities or black box methods within quantum mechanics, where we don't really need to understand what's happening, but we just need to know the output of what has happened. And from there, I started to look into ideas of constructive empiricism that suggest that empirical adequacy is all that we have to know to justify our theories based on what we know, and we can be modest about what we can know, saying that we're only understanding based off Our sensory perceptions, and we project our sensory perceptions onto what we can know in our theories.
+
+50:27  
+I mean, you sound like you're reading a lot of Emmanuel Kent.
+
+50:30  
+No, no, no. This is von frost. And from there, I read into other debates upon constructive empiricism, such as Fenner delson's idea that perhaps constructive empiricism doesn't allow us to properly take into account what we know now and what we may know like two years in the future.
+
+50:55  
+Yeah, that's an interesting question that one I think, given the acceleration of so many fields, makes the conversation on that topic really interesting, because you're saying no, in two years. In the old days, maybe that was 20 years, and in the future, maybe within your very near future lifetime, it could be two weeks. What we know about fill in the blank kind of depends on where we are in the exploration of that topic. What we used to know about the far side of the Moon changed precipitously. And then when you put an orbiter, yeah, in place. You know each orbit. So now you got 90 minutes to update what you think you know about this thing, because 90 minutes from now, you're going to get another data. Now you're going to learn a lot more interesting stuff. I'm a little puzzled about how you started all that, because there is this. There's a realm where, thank God, you don't know how your eyes work in great detail, and you, the observer with those eyes, should not know in great detail how that particular line is processing its input, a millipede, understanding its feet.
+
+52:29  
+It's too much
+
+52:31  
+to allow you to use it in a facile way. So, and that's you know, you don't know how you're controlling all the muscles in your body when you run or walk or balance on a beam or do a swan dive, all that stuff is programmed neuromuscular memory. That's deep, deep, deep knowledge. People complain, Oh, well, neural nets and machine learning, we don't understand how it works when it works. And I would say exactly, I don't understand how I work when I work. And I never have, and I probably never will, yeah, if I spent too much time thinking about it, I would stop working.
+
+53:19  
+Yeah, so my not part of what you're doing. My honors thesis was more so looking at our relationship with that like deep in already, no, no, no, sorry, my honors thesis will be we'll be looking at our relationship with this deep, intrinsic knowledge, such as like theories that we propose and our our ideas towards them, like, Why?
+
+53:43  
+Why should we care? Michael playing at all a social psychologist,
+
+53:48  
+no. Michael playing
+
+53:50  
+pol a Nyi,
+
+53:54  
+major hero, and
+
+53:57  
+part of the reason I am today is Michael blank, who was the father of John, who I ended up working for. And I went to go work for John, largely because Michael was his father. It sounds dumb, but it's not as dumb as it sounds. And Michael wrote books with titles like tacit, D, A, C, I T, knowledge. In fact, that was one of his more famous tracks. Was that particular book and many like it, where he talked a lot about, you know, it's the reduction on absurdum is, how does a squirrel know how to build a nest? There's no squirrel, squirrel or a bird. Birds learn bird songs from other birds. That's a talk thing. But making nests is not taught to some animals. They just simply know how to do it. How's the sticker back know to make a circular nest on the bottom of the ocean. These sorts of intrinsically programmed things used to be called instinctual knowledge. It's a very bad what it is a term to hide your ignorance. It'll sweep everything under the carpet, what sounds like an explanation, but
+
+55:12  
+what an instinct is very difficult
+
+55:15  
+to get your hands. Yeah, scientists have a tendency to, like, just dive into things, even if it's super niche. And so how much should we care about what they're diving into is also
+
+55:30  
+just because they're interested in it does not make it interesting. Yeah, absolutely right. Any scientist will take great umbrage with your failure to be enthusiastic about their subject,
+
+55:46  
+actually, um, my my advisor, had asked me to ask around the science community. Why? Why do we do science? From your take? Why? Why do people pursue science? That's a
+
+56:01  
+super good question. Yeah.
+
+56:04  
+I mean, the glib, smart ass answer is, cause we can, you know that it's the same reason people tend to want to do anything, but they're, I mean, genuinely speaking, human curiosity varies from individual to individual, and the degree to which it's rewarded is socio economic and political, and
+
+56:30  
+you know, it's class and every other sort of
+
+56:34  
+effect you can have politically on whether you're rewarded simply for being curious and kid taking apart daddy's wristwatch. I mean, some daddy's gone. Why wasn't that going? Took my wristwatch apart. Another daddy broke my wrist. So that structure follows you through your early childhood. I've been teen years, and what you learn is that curiosity is its own reward, and that part doesn't mean you're going to be a scientist, but it favors scientists. It also favors police and detectives and people you know, people who love learner mysteries and all that they people or do crossword puzzles, are people who love the challenge, the intellectual challenge. That part, I think, is the trivial part. The other part is, why would you ever get a PhD and or do whatever it is. Let's take jingle down. Why would you want? Why would even if you could, you want to live with primates and live among them and study their society so that you understood what how their behavior is supposed to nobody in their right mind would pick that as a thing to do, except she did, and she did a pretty good job with it. That's a good question. Why? Why do you do science?
+
+58:18  
+Partly, knowledge is power people.
+
+58:23  
+That's not just an epitaph. It's true. Knowing something, the asymmetry of knowledge is what makes rich people rich and poor people poor. And so when you strike a bargain, if I know a whole bunch of stuff about the object that you don't know. This is how Carfax makes a living now telling you, oh, that car was in an accident. That changes the apparent value of the object in a transaction. And that asymmetry allows, I would say that asymmetry allows the potential exploitation of circumstances, and that's one of the things that happens to be true about knowledge. Knowledge is power.
+
+59:13  
+The knowledge the ability to count
+
+59:17  
+with other if someone else cannot, the ability to add two numbers together as someone else being to cut one country, there are scam artists who operate carnivals, who run probability games where your chance of winning is one in 10,000 and yet what they do is add the game may be, add up all the numbers that you threw some objects on and landed, and it's their two digit numbers, and there's six of them, and this guy does, oh, you won. There you go. You win, and you win and you win. And the stakes escalate, and then suddenly you don't win anymore, because he slows down and begins to correctly had the numbers on the board, and maybe even brings out a calculator to show you that he's actually telling me. But you wonder, how come you won five or six? You get it right? Yeah. Okay, that's one example. Every scam is predicated on knowledge, on an imbalance in knowledge, three card, money, cups and balls, you name it, and magic, all of it is predicated on distracting you over here.
+
+1:00:34  
+Yeah, it's it's power, yeah, it's
+
+1:00:38  
+power. Yeah, so and the greatest extension of that everything to Leonardo da Vinci, working part of the time on paintings for various locations, and working part of the time on engines and machinery or because there's money, there's a steady paycheck in the knowledge of, how do I get a projectile to land on my enemy instead of falling somewhere where it does no damage? All of those artillery tables, all of that, you know. How did all of this stuff happen that happened to give people predatory advantage over other people and over animals that they have no business going after me and five of my friends, you included, are going up to get a mastodon today. Bring your spear. Come on, man, it's a mastodon. You see one of these things, 15 feet high in their shoulder. They've got horns, and they're mean and and yet we used to eat those. That's part of what's breaking in science is the ability to predict, correctly predict the future where other people cannot, and to control the outcome where other people cannot, and to devise tools to render easy problems other people find hard. Yeah, if I give you a 1032, screw, wood screw, and ask you to put it into a board to hold something together, and don't give you a screwdriver or a drill, you're gonna spend a lot of time working on that problem with your fingertips.
+
+1:02:26  
+So even if it doesn't give you some like social advantage, though, there's just like power in in knowing
+
+1:02:34  
+and knowing, yeah, yeah, I, I'm, I'm where I am today. Couple of events when I was a very early under one when I was really early undergrad, I was doing research. Then one late, I was doing research. And both were the exclusionary nature of that knowledge. I was I was working on a chemical compound, never mind what, using a technique, never mind what, electron spin resonance, and I was having trouble. I was having trouble. Then one night, three o'clock in the morning, bang out came the entire spectrum, just utterly beautiful. And at that time, three o'clock in the morning, I'm walking under the stars in Cleveland, Ohio, thinking while the grown ups are sleeping. Man, I'm out here doing this. I'm the only one in the world who knows the spectrum of this molecule. And for a little while, when I was even younger than that, I was the only one who owned a couple of micrograms of a particular substance that I had made. And anywhere in the universe. You go anywhere you want, go to Pluto, go to Mars, go anywhere you were not going to find another microgram of that stuff. I hadn't it was mine, okay? And that feeling of like I'm doing this while the grown ups are sleeping, and man, this is just the best thing in the world. I got hooked. And I have, I have never left it. I have been in or around the laboratory
+
+1:04:08  
+ever since. That's fantastic. I want to get to that same feeling. You
+
+1:04:14  
+Well, and that's the there's a piece there that is breadth, but the real piece there is the depth component you have to know enough to command this thing long enough. I wouldn't first. I should give credit. I would never have gotten that spectrum. If my Japanese, the Japanese visitor who shared the office I was in at the I have a desk basically in his office whose name was, Oh, my God, Toru. Toru was his first name, and I think Toru sataki was his name. And he suggested that I needed to get the oxygen out of my solution. So he said, Go sparj. And I said, What spark? He said, bubble some nitrogen into it, and bubble nitrogen through it for about an hour. It'll chase all the oxygen away, and then try it again. And I did, and it worked. These are the moments where an older scientist, this guy was ancient, he must have been in his mid 30s, tips you off on how to do something, right? And then you are and you're then empowered. That's a cool thing. I mean, first time you wrote a program and it was Hello world, you didn't give a shit because they told you it was going to be old. But the first time you solved the hard problem that was hard to code, hard to think about, hard to solve and hard to code, and tricky, and it worked, and you see the answer on the screen. I mean, that's got to be that's got to be a thrill. Yeah, yeah. I mean, I know that thrill too. For me, that wasn't as thrilling as the rest. But that's got to be a thrill for somebody like you.
+
+1:06:02  
+It was exciting. It was exciting. I began learning more than I should have.
+
+1:06:11  
+Yeah, exactly. I mean that and that. Why? Cause you're curious. Yeah. Okay. Same reason you want to same reason you gravitated toward the reflection coefficient of this black and steel. And the same reason you gravitate to the problem, you gravitate to it. Yes. Curious, I wonder what the answer is. Yeah. People, people are like that. People, thank God, or we would still be clustered, you know, in Central Asia and Central Africa and the couple of places where we initially involved, and we would have never left that first campfire. It's that curiosity that causes people to move and do things all together. All right, your your CV is great. I'm concerned, though. I don't know what to say. The only thing I would say is, I wish your GPA was 3.99 Yeah, but it's around three, right? Yeah, I forgot, I forgot that number. It's a little bit above three, 312 Yeah, okay, 312 but with a strong first derivative, yeah, all right. So, I mean, I'm looking at this rocket, and it's lumbering along horizontally, and then suddenly I put it on the platform, it's about to take off. Yeah, that's where you are, right.
+
+1:07:30  
+To justify that, there have been, like, some hard times in my college career, one where my mom got into a car accident, so I was thinking about taking some time off of college to be with her and take of her, and then another time where I also got into an accident, and I was struggling to make it to classes because of a concussion that lasted over a month. So there were, don't
+
+1:07:55  
+have a don't have another one there. Yeah, that's gonna come back to bite you later on in your life if you have more than one of those.
+
+1:08:03  
+Yeah, there were some bumps in the road. One another. First semester of college, for my first physics final, I got completely sick, and I still chose to take the final exam, even though I had the flu, I begged my professor to take it, and he just set a desk aside for me. And because I chose to do that, they allowed me to take it again once I was healthy, which allowed me to, like, stay committed on this road. And I want to thank them for all the help that was that? I think there was a board that decided, but in on that board specifically was Professor makaylov, who taught physics, 101,
+
+1:08:51  
+he's a great guy, because
+
+1:08:53  
+I was able to retake that final because I showed that I was determined to, like, take the final despite having the flu and like coughing up a lung during the test.
+
+1:09:05  
+I, you know me, I would never let you in the room. You'd have taken out in the room. I actually would have talked you out of taking it. You don't need to prove things to that level. You know, it's just we this is our fault as professors for convincing you that you have to prove something like that.
+
+1:09:27  
+Because all of that, I was able to, like meet the requirement to take physics the next year, and since then, I've stuck on this road, and I haven't changed.
+
+1:09:39  
+Tell me about math, because math,
+
+1:09:43  
+tell me how much you like or don't like math. And
+
+1:09:47  
+when it comes to math, I I do enjoy math. Early in my career, I wasn't really fond of, like, just the idea of, like, solving things out. I had no reason, but I feel that reason, like,
+
+1:10:01  
+just like calculus one, yeah, yeah. That's just, I mean, calculus is we it's a torture, yeah, and it's sad that it is a torture, because it's not a terrible subject, it's a pretty good subject, but it's two damned ideas. There are only two ideas in that entire 1000 page book, and they're not all that hard to get your hands around, but we torture people with these boring ass problems. Go do a trigonometric substitution and see if you can solve this integral crossword puzzle, basically for no reason. Just
+
+1:10:40  
+yeah, I'm more fell in I fell in love with math more when I found what I can do with it as a physicist and like as an engineer, once I have found a DR in like my studies, I more committed to my studies and
+
+1:10:56  
+well, so for your penance, then you have to do penance. When you do badly in math is you have to now go back in graduate school and relearn that crap that they made boring for you, which was your first three or four semesters up through and including partial differential equations, all of that's kind of pretty and all of that has there's an abstract algebraic version and a geometric version. And you need to go into the work of the period I period Arnold to get the geometric version. And you need to read vi Arnold, because if you can't see it, it's really not interesting. I think it's probably true about you. Specifically, you seem to be more because, because you're working on computer vision, I'm guessing you know, more visually inclined then you are abstract. You know, yeah, a pure math book with no pictures in it, yeah? Probably would not appeal to
+
+1:12:01  
+you. No, once I started learning about neural networks and the neural network math, then I was more fixed on okay, I could solve this out. I could create this as a formulism in math and and solve this out. It became fun, yeah,
+
+1:12:16  
+because it has an objective, yeah, yeah, but, but I think you need to take a look at math again, because it's a tool. I mean, it basically, it's that screwdriver that allows you to do map the physical world problem onto a mathematical proxy. Solve the proxy to understand where the real thing is going to go. That's important now land in a rocket on its tail on a platform in the middle of the ocean. It's essentially a hard mathematical problem, yeah, and it's a hard computational problem, and it's a hard systems engineering problem, and all those three things come together and you end up with a rocket land and on sale on a platform in the fact, inside a circle after having been near, near orbit, right? So that's pretty cool, yeah. And you know, all the, you know, the fancy fluid dynamics and everything else that's in there, and the fancy calling Newtonian mechanics, but it's all pretty hard, and all of that stuff. Doesn't want qualitative description. You want the rocket, the circle, the platform, yeah. You know, there's you can make up any reason why it ended up in the water, but when it ends up in the water costs a lot of money, yeah, so you're going to need to master in your PhD in engineering, you're going to need, I don't know what your PhD is going to be, yeah, because I'm I think you should start this process the way we began, which is, on the map, where do you want to Live? And then think hard. Would you be willing to live in Indiana? Yeah, because there's a great school called Purdue in Indiana, and they have a superb computational engineering physics program, for example. Would you be willing to live where it's called because it happens to be cold in Hokkaido, you picked Okinawa. I don't know why Okinawa. Okinawa is a bunch of old people who aren't replacing themselves. You could be in Tokyo or Nagoya or Hokkaido. Hokkaido is cold as hell. Mar is cold, but there's a really good university there, and Tokyo is even better. Tokyo is the cream of the cream that's Harvard in Japan is Tokyo University, so you know, and the fact that you speak Japanese is a distinguishing mark. Are you not very many students speak enough. Call it conversationally fluent, and certainly most people can't read the street signs, yeah, and if you can do that, that, you know, you become really valuable. I was a collaborator,
+
+1:15:11  
+yeah, I was actually, so you gave me the DRIF Emmanuel, the Japanese DRIF manual, and so I'm actually translating that into a scroll for my Japanese year project.
+
+1:15:26  
+So by the end of the snow,
+
+1:15:27  
+everything comes together, and I get a translation of the trip
+
+1:15:32  
+in a large scroll.
+
+1:15:35  
+Oh, that's pretty cool. Yeah. Is are you doing it? Are you doing it in
+
+1:15:42  
+with a brush and Inka,
+
+1:15:45  
+yeah, there. So some of it's some of it's like this, like, ink pen. Some of it's like, normal pen is the project is supposed to be, like, 100 day commitment for our Japanese class. And so, like, every day I, like, take a page and I try to, like, translate it into the
+
+1:16:01  
+scroll. How long is the scroll at this point?
+
+1:16:05  
+So the scroll is,
+
+1:16:08  
+you see it's like,
+
+1:16:11  
+this long so far.
+
+1:16:14  
+And how many days are you in?
+
+1:16:16  
+We're in 50 days.
+
+1:16:19  
+So it'll be five feet long when it's done, yeah, roughly when it's done, probably you should put it on display in the hallway of ISC three outside your laboratory, so that people see it. And you can say this is the translation of
+
+1:16:40  
+the trip drift manual, yeah, yeah.
+
+1:16:44  
+All right, let's go back to what to do. So I mean, how much would you want to live in Iowa or Kansas or I saw coast, coast, Cleveland and St Louis? Those were family, family location.
+
+1:17:01  
+I have nothing to do with Cleveland. No people there. I don't know anyone in Cleveland. So Case Western is in Cleveland. Oh, I see. Case Western would be interesting.
+
+1:17:18  
+Case Western has a superb had. When I went there, I was undergrad, there have a superb bio engineering, Biomechanical Engineering Program. Even then, that's a that's decades ago. Man, 60 years ago. Yeah, I was there, so they were good at it 60 years ago. Yeah,
+
+1:17:40  
+when it comes to,
+
+1:17:42  
+I want to, there's, there's two factors here. One is, like, my chances of making it in, like, like, how well I can actually get there? The second is actually a financial because some of these schools come with prices, like, and it's going to cost, like, application fees, so I can only apply to 10, seven like this
+
+1:18:08  
+go around. Yeah, you have too many stretch schools. You have MIT, Harvard, Stanford, Chicago, yeah, as your stretch, those are real stretches you might get in. You more likely are going to get in that's hard to say. You're very unlikely to get into Chicago right now. You may be unlikely to get into Harvard right now, and I'm not sure you want to be there. Harvard's getting beat up pretty bad right now, and for the next three years, they're going to continue to be beaten up on that list of stretches probably Stanford, yeah, is a good place to think about and one one tick down from there was Northwestern, right on your list, I think you had North, NorthEastern or Northwestern,
+
+1:18:58  
+Northwestern. Northwestern was stretched, but it was also one that, like, I I had like, an idea for for a while now, I had a friend who went to Northwestern, and I saw the program there, and then he, like, I kept asking him questions about it. And I was like, Okay, well, what was your application? Can you send me like, what you did to apply? And then he sent me his like, like, portfolio and application that he sent to them. I was like, Okay, I'm gonna be everything on this list
+
+1:19:35  
+he got in. And did he get support?
+
+1:19:39  
+I do you should not pay for your own PhD. Yeah, you should be supported by your mentor, yeah, and that's better for you. Now, your mentor may not have a lot of money, and mine didn't at Ohio State, so I taught, which is fine, it costs you an extra year. And I would say I probably would never have gone to academia for a career had I not taught as a graduate student. So that taught because I thought, then they can do then they can't teach I teach it me then. But after I taught for a few years as a graduate student, I began to see, hey, this isn't so bad. You know, there's a lot of reward in it, but if your mentor can fund you, it's going to cut a year off your program. So it took me from the time I got back from the army, almost five years to get my degree, and I could have finished it before, but these days, five is pretty common, you know. And then what really matters is you love what you're doing, yeah? And you like doing it with those people and and you can there's somebody to talk to, yeah, you know, like I say if, If setaki hadn't been there, I would not have been able to get that spectrum, yeah, that can just somebody at that level in five minutes, can unlock you, where you're where you're banging your head against things. They can say, try this. And you know, you don't think of it because you don't have the experience. So from a group that has other graduate students, is probably a good thing, and a group that has a postdoc is probably a good thing, but now you're talking about a big group that's pretty successful. Very few people have two postdocs and six grad students when they're just starting out. It's not so easy. So you look for somebody with a strong publication record and known in the field, and somebody with a little bit of clout, and somebody who has problems, a portfolio of problems they care about, that they can hand to you. And my first advisor, who I didn't stay with, wanted me to think up my own problem, and I did, but it was too hard for a graduate student. Yeah, no, and I didn't. That's also when you got to be careful with you can think of a problems that's way too hard and you're not going to solve it. Yeah, problem I thought up has been the subject of three or four Nobel prizes over the last the last 10 years. So that's how long it took to solve those problems, the tech, the mathematical methods, the characteristics, the characterization techniques. There wasn't an environmental SEM, there wasn't a cryo tem, these are the things I would have needed to solve those problems. They weren't available.
+
+1:22:40  
+Yeah. So someone with the tools as well,
+
+1:22:44  
+well, yeah, you have to know that what you're trying to do for them can be done, not guaranteed, because no PhD is ever guaranteed it can fail. Yeah, so when you pick your problem, always pick a problem that doesn't demand a particular outcome, but rather pick the Michelson Morley problem, which says we're going to measure the the effect of the ether on a beam of light. And when you fail to measure it, you determine that, therefore there is no ether, and that's a Nobel Prize. Had they met, had that worked, and they had measured the differential, they would have done nothing but confirm something about as interesting as the Doppler Effect, which is interesting, don't get me wrong, but it wouldn't have been as important as not being able to measure a difference. That is a Nobel Prize. So you're looking for a problem. I call it a can't miss so and I've had, I have spent my last 20 years doing these, and it's why I'm who I am and where I am is that I will look at, I've looked I look for the Navy at field Emmanuel, and then I look for Jefferson Lab at suppression of field emission. So over here I wanted more field emission. Over here I wanted no field emission. So anything I did tell somewhere of interest between these two completely independent problems. So I would look, I looked at Silicon oxy nitride. It suppressed field emission. Oh, you're a hero of Jefferson Lab. I looked at molybdenum carbide. I looked at hafnium carbide, oh, it emits like crazy compared to either pure hafnium or more carbon. Now you're a hero to the Navy who wants this for microwave tubes. You understand it's not you. That's where you want to be in your graduate work. And then, you know you will finish.
+
+1:24:59  
+Yeah, I'm actually, I looked at a dramatic reduction of DC field emission from large area electrodes by a plasma source ion implantation that it that could be
+
+1:25:10  
+Tom Van house, that could be nimble Theodore.
+
+1:25:13  
+The No, that was, that was that? That was a paper, yeah,
+
+1:25:20  
+I was gonna say, these are my co workers on that. Three PhDs came out of that collector and more PhDs, kun Hall and and a bunch of other people who went off to work on field emission, yeah, generally, came out from the more field emission stuff?
+
+1:25:42  
+Yeah, I just, I found a couple of your your research articles.
+
+1:25:46  
+Yeah, there's, you shouldn't have any trouble. There's 300
+
+1:25:51  
+Yeah. Did you find
+
+1:25:53  
+anything on proteomics? No, I didn't. I did not.
+
+1:25:57  
+Okay, you look at me, we did. We did time of flight spectroscopy to do proteins and again, a place where we couldn't miss you're gonna get an answer. The question is, if the answer doesn't do what you had hoped, it better do something more interesting. That's where you got to be a little careful. Yeah, picking an advisor, because some advisors, you never want to prove anything. As an experimental scientist, you want to examine everything, and you want to test and then you want to, once you have a good indication of what the mechanism is, pour into it and get as much as you can. But you're not. The job isn't to show that you were right about anything. It's to find out, is it right? All right? One of the schools, there are a million good schools, yeah, and the best robotic school, if I was going to do robots, and I couldn't do it at Carnegie Mellon, I try to do it at MIT.
+
+1:27:02  
+Yeah, so you were saying that these were stretches, though, and like my biggest fear,
+
+1:27:07  
+MIT is a stretch, yeah, I think Carnegie Mellon might I that would be a good stretch. If you care more about the computational computer and control side of the robot. Then you do about the choice of motors, the articulation, the joints, the range of motion, and the mechanical side. So you're going to be an electromechanical engineer. And I think there's only one program you didn't even list Arizona state. They are from that degree. Yeah,
+
+1:27:41  
+I didn't
+
+1:27:42  
+know. Yeah, Arizona State is a good school. It is a huge school, and they don't pride themselves on being exclusive. Yeah, they don't say, you know, 15 people want to get in here, and we only let one in that then, okay, what are you bragging about? That's to me, I don't give a shit. What have you done lately? I don't care how exclusive you are in your admissions program. Yeah, Arizona state tries to let in as many people as possible, as many as they can afford, and they're run by one of the best presidents I know, Michael Pro, he's just he, that's his philosophy. Now that's his undergraduate philosophy, but it spills over into the graduate work, yeah, Herb optics program, and pretty much, I think, the only PhD that has the title electro mechanical.
+
+1:28:38  
+That's interesting. No, yeah.
+
+1:28:40  
+I mean, if you think about where's the future,
+
+1:28:44  
+it's electro mechanic, yeah. And the question is, how? The only other question is, how big is it? Yeah. And so it might be micro, electro mechanical, MEMS. It might be nano electro mechanical, which, if I were, if you were interested in that, I'd say you didn't put Santa Barbara. Santa Barbara on your list. Santa Barbara has some fabulous people in the Nano arena. I've heard the there are three universities to chair the California nano systems laboratories, and one of those three is, I think UCSD is one UCLA, and Santa Barbara they they are co equal, and Santa Barbara has a beautiful center for that, but it's Nano, electro mechanical devices that they're interested in. And if you're trying to do an atlas, or, you know, something that weighs 250 pounds and can carry a 300 pound man up and down stairs as a firefighter. And you probably want to go to Boston, where Boston Dynamics is at MIT, you know. And that's MIT, yeah, but those are, they're a little stretchy, you know, if your average was 3.75 3.8 I'd say, with this resume, you would waltz in the front door and say, What am I bid for? My Services for five years, and you, there would be a bidding war for you, because your grade point average is a little bit low. We're going to have to explain that away and letters from everybody who ever met you are going to help, and I'm certainly going to write one of them. Then you're going to help me write it by telling me what was important. Yeah, so I don't want to brag about something associated with you that isn't true. Yeah? So if there's something that you feel it was the motivating factor. That's a plus that needs to be highlighted. I'll put that in my letter. Yeah, okay, all right, I want to call my niece and find out what the hell happened to my nephew. Oh, so I'll be okay. It's not late. 20 to eight, yeah, but what else you want to talk about.
+
+1:31:01  
+So I thank you for all that, honestly.
+
+1:31:06  
+So yes, I'm just sitting here talking This cost me nothing
+
+1:31:12  
+I really wanted, so you covered most. I wanted to, like, know, like universities that would accept, like, this lower GPA, but like we
+
+1:31:22  
+have taken people out, the other two things that you would apply to that are not stretches are William and Mary Department of Applied Science and William and Mary Department of Computer Science. And don't forget, there's a department of data science, and you could work with anybody in data science who wants to do a PhD through applied science. So Dan one follow, you know there, we've got some killers here, really good guys. Do you know Trent Ford or Dan? Ron fola, Dan and Trent? Dan and Trent are both my go to people for just about everything to do with high level Machine Learning. These guys are machine learning at the highest level, and they're both in data science here. And you know, Trent's doing probably the most interesting work, largely for the military and his he is, I mean, these guys, I told him I wanted to see a machine learning game, to do a war game, and when follow whistled me something up. I don't know if he was Claude or Gemini or who he was. Really pretty good. Within 15 minutes, I had a war game, and it was good. Yeah. So we've got this kind of thing going on here, and I will write you a letter for here. Now, it's a little bit. I've done it before. The other thing is, you're talking about maybe working in places. Department of Energy is just horrible right now. I can't recommend any of the places that you have on your list, except possibly Los Alamos or Livermore, where my former students are. I can, I could put you in touch with Michael Bagh Hanson, and you could talk to him, because he joined my group as a high school kid and built that DC power supply that's down in room 168
+
+1:33:36  
+on the plasma apparatus down there.
+
+1:33:40  
+He and Jay Diggs built that supply
+
+1:33:43  
+when he was in high school, and he's now, I think he's a division head, one of the two livermores, I'm not sure which maybe. I don't think he's lost. Let me look. I this is worth knowing, yeah, and then we'll look up Michael baggehanson See where he is.
+
+1:34:05  
+So what I was saying earlier about, like, the Job List on there, it's, it's somewhat made up, because it was me and my buddy, just like, kind of like, typing in some things and then the auto correct. We're like, Oh, that's funny. What would the auto correct say next? And it came up with the most like nefarious companies.
+
+1:34:29  
+Were they, I mean, were
+
+1:34:32  
+they real or good? Yes, yes,
+
+1:34:35  
+it was. It was like some companies with just some, like, some baggage behind them, like Tesla Blue Origin, which is Jeffrey Bezos company, I
+
+1:34:45  
+know all the launch service people, so yeah, I wouldn't. I definitely. I would you want to be a rocket scientist. When you want to be a rocket scientist, that
+
+1:34:55  
+would be it like, how who would say no to that?
+
+1:34:59  
+I would because, I mean, just working for
+
+1:35:05  
+it's hard. I mean,
+
+1:35:10  
+I don't like Bezos, and I don't like, I don't like, I don't like any of the rocket launch service private companies, except for blocking their name. They've been around a long, long, long time, and they don't do is they're not in the lead on this area, but I just can't see working for Elon man.
+
+1:35:36  
+I don't he's Romania. I don't fast. Yeah, these were okay.
+
+1:35:41  
+Bezos, ain't okay. Yeah,
+
+1:35:43  
+these, these were joke companies I'm not playing on working for them.
+
+1:35:46  
+Don't do that, yeah, and so. But I mean, working on the launch would be fun. NASA is a nightmare right now. I just sent you,
+
+1:35:55  
+I forwarded you, yeah, I got that email thing
+
+1:35:59  
+from Michael bank against him, and I haven't talked to Tom Ben house for 100 years, but he's in the tritium group at Los Alamos. And so I could put you in touch with those folks.
+
+1:36:16  
+Yeah. So the plan
+
+1:36:19  
+here's what I think you would not like, you will not like being a Bachelor of Science Technical Support staff member in that environment. Why? Because you're just too good to stop at that level. You don't do it. I mean, you're gonna go out, start your own company, fine. Go work for a small firm that's going to give you a rapid promotion. Fine. Work for a company where there's an easy track to the top Google or whatever. Fine, but don't go work for the federal government in technical support, because you're going to be underused.
+
+1:37:01  
+Yeah. So the priority, the priorities are applied to PhD programs. And then, if I don't get in this round, then I work a job, and then study up, try to, like, get ready for the next round and wave by studying. And there are
+
+1:37:19  
+four safety schools for you, yeah, William and Mary,
+
+1:37:24  
+yeah, UVA,
+
+1:37:26  
+yeah, GMU, tech,
+
+1:37:33  
+those are your safety schools.
+
+1:37:37  
+And I know you can only afford to apply to 10 of them or whatever. But you don't have to apply to all of those. And maybe you ask them is send the chair of their physics or engineering physics, or whatever the right domain is. And I think at GMU, it's probably electrical engineering or mechanical. And tech, it's probably mechanical or electrical. And UVA, they have a program very much like engineering physics. And of course, here, we know everybody, and we know who you could or couldn't work for, yeah, and they know you and letters from their getting me, Doug
+
+1:38:28  
+won't scour the domain to get letters and
+
+1:38:32  
+get them all to emphasize your worthiness. I think that's a safety score. And let me just tell you, we're pretty good.
+
+1:38:42  
+Yeah. I mean the now, if you wanted to go work,
+
+1:38:48  
+you had, like Nvidia on your list of places to go work. I wouldn't unless I to work at Nvidia. And with a bachelor's degree, you're going to be in a bunny suit. There's going to be four of you on a 300 yard long line, and you're going to be all day long with 20 minute breaks. You're going to be a slave to the machines you work for. Don't do it.
+
+1:39:15  
+Don't work for Nvidia.
+
+1:39:18  
+If you had your PhD, then you can work for Nvidia, designing the next generation of high end processes. That's a difference, whole different smoke. That's good, yeah,
+
+1:39:35  
+yeah, that, yeah, that's the priority. Like, get the pH. Like, apply for these programs. See what happens if I don't then I get ready for the next round.
+
+1:39:45  
+Now go to each of the places you said you have 10 places you can afford to apply to write to some of the others that you would apply to if it were free, and just tell them, you know, I'm struggling student. I don't have a ton of money to spend, and your school is attractive to me, but I'm not sure blah, blah, blah, and is, is, do you have any internal program to offset the application expense? Yeah, because the fact that they charge you to apply is bullshit, man, they should be paying you to apply. You're a US citizen, yeah, and they and you're good. You're really, really, really good, actually. So the bidding for you,
+
+1:40:34  
+the UVA, they gave me a waiver for their PhD in data science, sure, yes.
+
+1:40:45  
+So will GMU, yes. So will tech and so will we okay if we don't, I want to hear it, because we should, yeah, and probably, so will Northwest and probably maybe case cases hurting for American students. They're all hurting, right? They're all talking about, nobody wants to get a PhD anymore. Everybody wants to just go right out and get the $50,000 signup bonus and go work, you know, for the XYZ machine learning company.
+
+1:41:26  
+So, yeah, I would, I would like to get a PhD. And then another thing is that, like, beyond, beyond the PhD, there's the idea that maybe I can a lot of people say this is only for, like, signing off papers, but just in terms of, like, like, having that, I think it would be interesting to get a PE if I were to do an engineering degree.
+
+1:41:49  
+Yeah, I highly recommend it. Yeah, to me, a PE stamp is a thing of absolute beauty. Yeah. I mean, it's challenging, it's hard. You can't even think about doing that for about five years. You need a lot of experience before they would allow you to take the test. And you need to focus on the practical side. You need to develop, develop a portfolio of solutions and get the and you'd have to figure out what's going to be chemical, electrical.
+
+1:42:24  
+Yeah, I electrical. So in an ideal case, if I had like, all the money and like, perfect, like resume, perfect GPA, I would apply to an electrical engineering PhD, get my electrical engineering PhD, work as some sort of engineer management, engineer management specifically, and then make my way to working as a solutions engineer, because I think that's what I would prefer. I think that would be really interesting where I'm more so like figuring out how to solve problems with different items itself, and how to pitch those problems and like come up with ways of developing that item, as well as like ways To
+
+1:43:19  
+understand all that is terrific. Yeah, there are
+
+1:43:24  
+many paths to that. I
+
+1:43:30  
+think you want to focus a little bit on getting the skill where I used to keep a sign on my door when I was at the other place and the other place, we were all about making stuff faster and cheaper and better and the same. You say, faster, cheaper, better, pick any two. Now I think I would add one more thing. You also should strive to do what has not
+
+1:43:54  
+been done, and that's our research. That's, you
+
+1:43:58  
+know, that's where your research PhD comes in, but always, never forget it's got to be the better comes in a lot of flavors, sometimes smaller, sometimes lighter, sometimes heavier, sometimes more stable, sometimes, you know, so better means better in terms of a performance criteria, but faster and cheaper are never any different. Yeah, making it so it works faster and making it faster will never go away as a thing an engineer needs to do, yeah, and making it cheaper. I mean, you should be overwhelmed with how cheap shit is right now?
+
+1:44:41  
+Yeah. I mean, I'm
+
+1:44:43  
+surrounded by LED lights. Every single light in this house is an LED light. There were no LED lights 40 years ago. No one made an LED light. 40 years ago, on a normal socket base, it just wasn't a thought. No one had that thought. People were working hard to try to get LEDs to produce a little red light, to produce some blue light. You could buy little toy things 3040, years ago. But nobody envisioned that
+
+1:45:15  
+there's another route pushing mankind and technology. Because I always, I always like, wake up and I wish, like, Oh, I wish we were 50 years of the future. You're
+
+1:45:31  
+gonna blink twice, and you're gonna be me talking to somebody else, and you're gonna
+
+1:45:38  
+say, Boy, it goes fast.
+
+1:45:39  
+But I always have this feeling that like, oh man, we were not as far as we could be.
+
+1:45:47  
+We're damn far. We're incredibly far. We are this eye has a lens in it now that is completely different from this eye, and both them were unavailable 10 years ago, and I could have had didn't get one that would have been tunable, so they could have taken a laser and hit this lens with a laser up to three times to change its focal length
+
+1:46:19  
+from outside. Yeah.
+
+1:46:21  
+Okay. Now that's augmenting reality, augmenting human kind. It is augmented, not artificial, but augmented. And when I say transcend the transducers, these have already transcended my original transducers, and they could have given me 2010, vision, and I could have chose an eye that made me as like an eagle. It's you could do that. They don't do that for people, because people shouldn't see like eagles. They might be hard on you, but they could, you know. So that's a future. Now the question is, how do you put these things are passive optics for the most part. How do you put something in there that's no longer completely passive? Then how do you talk to it routinely? Then how do you interrogate it, and how do you collect data from it that doesn't necessarily go to my brain, but goes wherever you want it to go. Yeah, don't I want two of those in every soldier? Yeah? Bet I do. Yeah. And what I have the volunteers, if I have the right perks, if, if, for each eye you, let me do you got a new car or a better house? You know, that was your sign up bonus. Let me do your right eye. You know, I I can concede. That's why you don't want to go 50 years in the future, because you don't want to see that soldier. You don't want to be part of that world. Because I can make up all kinds of dystopias around this very idea.
+
+1:48:01  
+I On that note, I was thinking I was talking to you about that one wash company that was trying to predict, like, energy levels. I think if they weren't just like a money hungry company, if they were actual researchers, predictive biometrics could be really interesting.
+
+1:48:20  
+Oh, and it's already there. I mean, yeah, they mean, this was the horror of Cambridge Analytica. Wasn't what they did. It was that they could do it as well as they did it. That was horrifying. So there already are companies that can tell they could tell me what you're going to buy this week based on your previous history and everything they know about you, and they can tell you what I'm gonna buy this week,
+
+1:48:47  
+not just they're right about it, not just in the economic sense, but like, oh, in like, 30 days from now, I need to, like, drink water, or else I'm gonna have a heart Attack.
+
+1:49:00  
+Things like that will be that, yes, all good. So we are now. We're now. We're me and my friends are teaching you and your friends how to do these things with the hope that you will keep an eye on what you're doing and not do things because you can, oh, yeah, you'll do things that need to be done, and you won't do things that ought not be done. Yeah, that's where I mean, we're trusting that. Yeah, you know, it's like, in a sense, when you give a seven or an eight year old a gun and say, go outside and play. You don't do that, okay. But in in a lot of these arenas, and especially in the augmented and I'm going to use the word I hate, which is virtual, nothing's really virtual. But in those domains, coupled with the kind of compute power that goes with these nano and micro devices, you are going to be powerful beyond anything person from the 1800s could have conceived of. Yeah, and then you're going to command. I mean, my my view of the future is that you'll have a personal megawatt at your fingertips, and you've already people, idiots now have a tent of that in a lot of the cars that they drive. Yeah, and you know that, but you'll have a personal megawatt available to you, and all of this technology will be available to you to do what you will, and you better will what's right. I won't be here. I'll be dead, yeah? But trust me, you're gonna have a lot to think about.
+
+1:50:53  
+This is where the philosophy degree,
+
+1:50:56  
+yeah, your philosophy, that's an important this is why I wrote the white paper on engineering here and me, and 80 of my honor me started with it. Ended up with 28 people saying, I want to be part of this too. No. Wrote that damn thing, knowing that William and Mary gives you this humanist breadth that's going to keep you more valuable than your simply technically trained peers. You're going to be technically trained, but you're going to have all this other stuff too. Yeah, all right, get out of here. Go eat. Go do what you
+
+1:51:35  
+do. Thank you.
+
+1:51:38  
+Have a good evening.
+
+1:52:24  
+Hey, thanks for waiting, guys.
+

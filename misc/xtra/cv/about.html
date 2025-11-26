@@ -103,7 +103,7 @@
                     </a>
                 </div>
                 <div class="hero-actions">
-                    <button class="download-cv-btn" onclick="downloadResume(event); return false;">
+                    <button class="download-cv-btn" onclick="openResumeAndDownload(event); return false;">
                         <i class="fa fa-download"></i>
                         <span>Download Resume</span>
                     </button>
@@ -1031,34 +1031,6 @@
             document.body.removeChild(a);
         }
         // --- END: New Helper Function ---
-
-        // Function to download resume PDF only
-        function downloadResume(event) {
-            // Prevent any default action
-            if (event) {
-                event.preventDefault();
-                event.stopPropagation();
-            }
-
-            // Create a hidden anchor with download attribute
-            const downloadLink = document.createElement('a');
-            downloadLink.href = 'Emmanuel_Sampson_Resume.pdf';
-            downloadLink.download = 'Emmanuel_Sampson_Resume.pdf';
-            downloadLink.style.display = 'none';
-
-            document.body.appendChild(downloadLink);
-
-            // Programmatically click the link
-            downloadLink.click();
-
-            // Clean up
-            setTimeout(() => {
-                document.body.removeChild(downloadLink);
-            }, 100);
-
-            // Return false to prevent any navigation
-            return false;
-        }
 
         // Function to open resume HTML and download PDF
         function openResumeAndDownload(event) {

@@ -1,0 +1,151 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Packages
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+
+% Color scheme - professional blue
+\definecolor{primary}{RGB}{0, 51, 102}
+\definecolor{secondary}{RGB}{70, 130, 180}
+\definecolor{accent}{RGB}{100, 149, 237}
+
+% Prevent widows and orphans
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
+
+% Section formatting with color
+\titleformat{\section}
+  {\color{primary}\normalfont\normalsize\bfseries\uppercase}
+  {}{0em}{}[\color{primary}\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=primary,
+    pdftitle={Emmanuel Sampson - Resume},
+}
+
+% Custom commands for consistency
+\newcommand{\daterange}[1]{\textit{\color{secondary}#1}}
+\newcommand{\position}[1]{\textbf{#1}}
+\newcommand{\organization}[1]{\textit{#1}}
+
+% Better list formatting
+\setlist[itemize]{leftmargin=*,noitemsep,topsep=1pt,parsep=0pt,itemsep=0pt}
+
+\begin{document}
+
+% ============= HEADER =============
+\begin{center}
+    \color{primary}
+    {\LARGE\bfseries EMMANUEL SAMPSON}\\[3pt]
+    \color{black}
+    \small
+    Williamsburg, VA 23185 \quad $\bullet$ \quad
+    (804) 926-0822 \quad $\bullet$ \quad
+    \href{mailto:ecsampson03@gmail.com}{ecsampson03@gmail.com}\\
+    \href{https://linkedin.com/in/emmanuel-sampson}{linkedin.com/in/emmanuel-sampson} \quad $\bullet$ \quad
+    \href{https://github.com/emmanuelcsam}{github.com/emmanuelcsam} \quad $\bullet$ \quad
+    \href{https://emmanuelcsam.github.io/portfolio}{emmanuelcsam.github.io/portfolio}
+\end{center}
+
+\vspace{-8pt}
+
+% ============= EDUCATION =============
+\section{Education}
+
+\noindent
+\textbf{William \& Mary}, Williamsburg, VA \hfill \daterange{Expected May 2026}\\
+\organization{BS Physics (Engineering Physics Concentration); BA Philosophy}\\
+\textbf{Honors:} Catron Scholar, Bosanko Scholar, Sharpe Community Scholar, Philosophy Departmental Honors
+
+% ============= EXPERIENCE =============
+\section{Experience}
+
+\noindent
+\position{Engineer Intern} \hfill \daterange{May 2025 - Present}\\
+\organization{WEINERT Fiber Optics Inc}, Richmond, VA
+\begin{itemize}
+    \item Designed AI-powered computer vision systems in Python/C++ for automated fiber-optic defect detection
+    \item Developed CNNs using HPC clusters to identify microscopic surface defects for medical laser systems
+\end{itemize}
+
+\vspace{3pt}
+\noindent
+\position{Physics Research Assistant} \hfill \daterange{October 2023 - Present}\\
+\organization{Applied Research Center Core Labs}, Newport News, VA
+\begin{itemize}
+    \item Collaborated with CERN, NIST, and CALTECH on low-angle reflectivity experiments for particle detectors
+    \item Assembled TRIFT 4 time-of-flight mass spectrometry instrument and developed custom data acquisition systems
+    \item Operated advanced instrumentation: Hitachi S-4700 FE-SEM, Bruker ICON AFM, HIROX KH-7700, Raman Spectrometer
+\end{itemize}
+
+\vspace{3pt}
+\noindent
+\position{Student Makerspace Engineer} \hfill \daterange{October 2022 - November 2023}\\
+\organization{W\&M Makerspace}, Williamsburg, VA
+\begin{itemize}
+    \item Managed 1,000+ service requests via Jira; trained 200+ students on laser cutters, 3D printers, CNC mills
+    \item Pioneered 3D scanning laboratory for digital preservation of anthropological artifacts
+\end{itemize}
+
+% ============= PROJECTS =============
+\section{Projects}
+
+\noindent
+\textbf{AI Fiber-Optic Defect Analyzer} $\bullet$ \organization{WEINERT Fiber Optics} \hfill \daterange{May 2025 - Present}\\
+Built custom microscope with computer vision for automated defect detection, enhancing medical device transmission
+
+\vspace{2pt}
+\noindent
+\textbf{Bird Sensor Technology} $\bullet$ \organization{W\&M Hackathon 1st Place Winner} \hfill \daterange{March 2024}\\
+Developed IoT sensor detecting bird-window collisions via frequency analysis and electromagnetic signatures
+
+\vspace{2pt}
+\noindent
+\textbf{WaveFinderAI} $\bullet$ \organization{Hackathon 2nd Place Winner} \hfill \daterange{January 2025}\\
+Created ML tool to detect microplastic contaminants in fluids using reflective frequency analysis
+
+\vspace{2pt}
+\noindent
+\textbf{Atomistic Spin Dynamics Modeling} $\bullet$ \organization{Research Project}  \hfill \daterange{October 2023 - Present}\\
+Investigating Fe-Ni and Co-Fe alloys as cost-effective alternatives to rare-earth semiconductors using VAMPIRE
+
+% ============= LEADERSHIP =============
+\section{Leadership \& Activities}
+
+\begin{multicols}{2}
+\begin{itemize}
+    \item \textbf{President:} Robotics Club (2023-25), Data Science Society (2024-25), Tech Executive Association (2024-25)
+    \item \textbf{Creator \& Host:} W\&M's inaugural STEM Symposium - 15 speakers, 150+ attendees
+\end{itemize}
+\columnbreak
+\begin{itemize}
+    \item \textbf{Outreach Director:} Society of Physics Students, ACM
+    \item \textbf{Awards:} W\&M Hackathon Winner (2024, 2025), W\&M Spirit Scholarship, National Residence Hall Honorary
+\end{itemize}
+\end{multicols}
+
+% ============= SKILLS =============
+\section{Technical Skills}
+
+\noindent
+\textbf{Programming:} Python, C++, MATLAB, Java, JavaScript, HTML/CSS, SQL, Arduino\\
+\textbf{Engineering Software:} Autodesk Fusion360, AutoCAD, SolidWorks, KiCad, Multisim, COMSOL, LabVIEW\\
+\textbf{Data Analysis:} Tableau, Power BI, ArcGIS, SPSS, Jupyter, High Performance Computing (HPC)\\
+\textbf{Specialized:} Computer Vision \& CNNs, Fiber Optics, Signal Processing, RF Engineering, PCB Design\\
+\textbf{Instrumentation:} SEM/TEM, AFM, TOF-SIMS, Raman Spectroscopy, Surface Profilers, Cleanroom Protocols
+
+\end{document}
