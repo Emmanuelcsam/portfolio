@@ -53,7 +53,8 @@
             width: 100%;
             height: auto;
             display: block;
-            transition: transform 0.5s ease;
+            transition: transform 0.5s ease, opacity 0.35s ease;
+            opacity: 0;
         }
 
         .gallery-item:hover {
@@ -63,6 +64,10 @@
 
         .gallery-item:hover img {
             transform: scale(1.05);
+        }
+
+        .gallery-item.show img {
+            opacity: 1;
         }
 
         /* Lightbox styles */
@@ -276,12 +281,22 @@
                 // Configuration
                 this.totalImages = 33;
                 this.imagesPerBatch = 20;
-                this.displayDuration = 15000; // 9 seconds
+                this.displayDuration = 15000; // 15 seconds
                 this.transitionDuration = 1000; // 1 second for fade
+                this.highPriorityCount = 8;
+                this.lazyRootMargin = '400px 0px';
+                this.placeholderSrc = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
+
+                const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+                const saveData = connection && connection.saveData;
+                const hardwareThreads = navigator.hardwareConcurrency || 4;
+                this.maxParallelLoads = saveData ? 2 : Math.max(2, Math.min(8, Math.floor(hardwareThreads / 2)));
                 
                 // Adjust for mobile
                 if (window.innerWidth < 768) {
                     this.imagesPerBatch = 10;
+                    this.highPriorityCount = 4;
+                    this.lazyRootMargin = '200px 0px';
                 }
                 
                 // State management
@@ -290,6 +305,9 @@
                 this.currentBatch = [];
                 this.isTransitioning = false;
                 this.cycleInterval = null;
+                this.preloadQueue = [];
+                this.activeLoads = 0;
+                this.observer = null;
                 
                 // DOM elements
                 this.gallery = document.getElementById('gallery');
@@ -308,6 +326,9 @@
                 
                 // Set up image click handling for lightbox
                 this.setupLightbox();
+
+                // Set up lazy loading for images
+                this.setupLazyLoader();
                 
                 // Handle resize events
                 this.setupResizeHandling();
@@ -362,8 +383,10 @@
                         // Adjust batch size for mobile
                         if (window.innerWidth < 768) {
                             this.imagesPerBatch = 10;
+                            this.highPriorityCount = 4;
                         } else {
                             this.imagesPerBatch = 20;
+                            this.highPriorityCount = 8;
                         }
                     }, 250);
                 });
@@ -372,8 +395,29 @@
             setupLightbox() {
                 this.gallery.addEventListener('click', (e) => {
                     if (e.target.tagName === 'IMG' && e.target.dataset.enlargable) {
-                        this.openLightbox(e.target.src);
+                        const source = e.target.dataset.fullsrc || e.target.dataset.src || e.target.src;
+                        this.openLightbox(source);
                     }
+                });
+            }
+
+            setupLazyLoader() {
+                if (!('IntersectionObserver' in window)) {
+                    this.observer = null;
+                    return;
+                }
+
+                this.observer = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                        if (!entry.isIntersecting) return;
+                        const img = entry.target;
+                        this.observer.unobserve(img);
+                        this.queueImageLoad(img);
+                    });
+                }, {
+                    root: null,
+                    rootMargin: this.lazyRootMargin,
+                    threshold: 0.01
                 });
             }
             
@@ -443,6 +487,12 @@
             async displayBatch(batch) {
                 this.isTransitioning = true;
                 this.showLoadingIndicator();
+
+                if (this.observer) {
+                    this.observer.disconnect();
+                }
+                this.preloadQueue = [];
+                this.activeLoads = 0;
                 
                 // Clear gallery with fade out
                 await this.fadeOutCurrentImages();
@@ -450,81 +500,147 @@
                 // Clear the gallery
                 this.gallery.innerHTML = '';
                 
-                // Create and add new images
-                const imagePromises = batch.map((imagePath, index) => {
-                    return this.createImageElement(imagePath, index);
+                // Create and add new images immediately (do not wait for all to load)
+                const fragment = document.createDocumentFragment();
+                const elements = batch.map((imagePath, index) => {
+                    const el = this.createImageElement(imagePath, index);
+                    fragment.appendChild(el);
+                    return el;
                 });
-                
-                const elements = await Promise.all(imagePromises);
-                
-                // Add all elements to gallery
-                elements.forEach(el => this.gallery.appendChild(el));
+                this.gallery.appendChild(fragment);
                 
                 // Trigger reflow
                 this.gallery.offsetHeight;
                 
-                // Fade in new images with staggered animation
-                setTimeout(() => {
-                    elements.forEach((el, index) => {
-                        setTimeout(() => {
-                            el.classList.add('show');
-                        }, index * 50); // Faster animation on mobile
-                    });
-                }, 50);
-                
-                this.hideLoadingIndicator();
+                // Load high-priority images in parallel, lazy-load the rest
+                const highPriority = elements.slice(0, this.highPriorityCount);
+                const highPriorityPromises = highPriority.map((el) => {
+                    const img = el.querySelector('img');
+                    return this.loadImage(img);
+                });
+
+                const rest = elements.slice(this.highPriorityCount);
+                rest.forEach((el) => {
+                    const img = el.querySelector('img');
+                    if (this.observer) {
+                        this.observer.observe(img);
+                    } else {
+                        this.queueImageLoad(img);
+                    }
+                });
+
+                Promise.allSettled(highPriorityPromises).then(() => {
+                    this.hideLoadingIndicator();
+                });
+
+                // Safety: hide loading indicator even on slow connections
+                setTimeout(() => this.hideLoadingIndicator(), 2500);
                 this.isTransitioning = false;
                 this.currentBatch = batch;
             }
             
             createImageElement(imagePath, index) {
-                return new Promise((resolve) => {
-                    const container = document.createElement('div');
-                    container.className = 'gallery-item';
-                    
-                    const img = document.createElement('img');
-                    img.src = imagePath;
-                    img.alt = `Gallery image ${index + 1}`;
-                    img.dataset.enlargable = 'true';
-                    img.className = 'img-responsive';
+                const container = document.createElement('div');
+                container.className = 'gallery-item';
 
-                    // Preload image
-                    img.onload = () => {
-                        container.appendChild(img);
-                        resolve(container);
+                const img = document.createElement('img');
+                img.alt = `Gallery image ${index + 1}`;
+                img.dataset.enlargable = 'true';
+                img.dataset.src = imagePath;
+                img.dataset.fullsrc = imagePath;
+                img.loading = 'lazy';
+                img.decoding = 'async';
+                img.className = 'img-responsive';
+                const priority = index < this.highPriorityCount ? 'high' : 'low';
+                img.fetchPriority = priority;
+                img.setAttribute('fetchpriority', priority);
+                img.src = this.placeholderSrc;
+
+                container.appendChild(img);
+                return container;
+            }
+
+            getCandidateSources(imagePath) {
+                if (!imagePath) return [];
+                const unique = new Set();
+                unique.add(imagePath);
+                unique.add(imagePath.toLowerCase());
+                unique.add(imagePath.replace('.JPG', '.jpg'));
+                unique.add(imagePath.replace('.JPG', '.jpeg'));
+                unique.add(imagePath.replace('.JPG', '.png'));
+                return Array.from(unique);
+            }
+
+            loadImage(img) {
+                return new Promise((resolve) => {
+                    if (!img || img.dataset.loaded === 'true' || img.dataset.loading === 'true') {
+                        resolve();
+                        return;
+                    }
+                    img.dataset.loading = 'true';
+
+                    const container = img.closest('.gallery-item');
+                    const source = img.dataset.src || img.dataset.fullsrc || img.src;
+                    const candidates = this.getCandidateSources(source);
+                    let attempt = 0;
+
+                    const finalize = () => {
+                        img.dataset.loaded = 'true';
+                        img.dataset.loading = 'false';
+                        if (container) {
+                            container.classList.add('show');
+                        }
+                        resolve();
                     };
-                    
-                    // Handle error gracefully
-                    img.onerror = () => {
-                        console.warn(`Failed to load image: ${imagePath}`);
-                        // Try alternative paths
-                        const alternativePaths = [
-                            imagePath.toLowerCase(),
-                            imagePath.replace('.JPG', '.jpg'),
-                            imagePath.replace('.JPG', '.jpeg'),
-                            imagePath.replace('.JPG', '.png')
-                        ];
-                        
-                        let pathIndex = 0;
-                        const tryNextPath = () => {
-                            if (pathIndex < alternativePaths.length) {
-                                img.src = alternativePaths[pathIndex++];
-                            } else {
-                                // If all fail, create placeholder
+
+                    const tryNext = () => {
+                        if (attempt >= candidates.length) {
+                            console.warn(`Failed to load image: ${source}`);
+                            if (container) {
                                 container.style.background = '#222';
                                 container.style.minHeight = '200px';
                                 container.style.display = 'flex';
                                 container.style.alignItems = 'center';
                                 container.style.justifyContent = 'center';
                                 container.innerHTML = '<div style="color: #666; text-align: center; padding: 20px;">Image not available</div>';
-                                resolve(container);
                             }
-                        };
-                        
-                        img.onerror = tryNextPath;
-                        tryNextPath();
+                            img.onload = null;
+                            img.onerror = null;
+                            finalize();
+                            return;
+                        }
+                        img.src = candidates[attempt++];
                     };
+
+                    img.onload = () => {
+                        img.onload = null;
+                        img.onerror = null;
+                        finalize();
+                    };
+                    img.onerror = tryNext;
+
+                    tryNext();
                 });
+            }
+
+            queueImageLoad(img) {
+                if (!img || img.dataset.loaded === 'true' || img.dataset.loading === 'true') return;
+                this.preloadQueue.push(img);
+                this.pumpQueue();
+            }
+
+            pumpQueue() {
+                while (this.activeLoads < this.maxParallelLoads && this.preloadQueue.length > 0) {
+                    const nextImg = this.preloadQueue.shift();
+                    if (!nextImg || nextImg.dataset.loaded === 'true') {
+                        continue;
+                    }
+                    this.activeLoads += 1;
+                    this.loadImage(nextImg).finally(() => {
+                        this.activeLoads -= 1;
+                        this.pumpQueue();
+                    });
+                }
             }
             
             fadeOutCurrentImages() {
@@ -581,6 +697,11 @@
             
             restart() {
                 this.stop();
+                if (this.observer) {
+                    this.observer.disconnect();
+                }
+                this.preloadQueue = [];
+                this.activeLoads = 0;
                 this.resetAvailableImages();
                 this.gallery.innerHTML = '';
                 this.start();
